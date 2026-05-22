@@ -1,6 +1,3 @@
-// ============================================
-// ROUTES CATEGORY MANAGEMENT
-// ============================================
 import { Router } from "express";
 import { authenticate, authorize } from "../middlewares/auth";
 import {
@@ -16,7 +13,7 @@ const router = Router();
 // Semua route category memerlukan authentication
 router.use(authenticate);
 
-// Public untuk view (semua role yang sudah login bisa lihat)
+// View routes (semua role yang sudah login bisa lihat)
 router.get(
   "/",
   authorize(["SUPERADMIN", "ADMIN", "MANAGER", "KASIR", "GUDANG"]),
