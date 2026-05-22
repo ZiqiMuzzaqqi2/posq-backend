@@ -1,0 +1,185 @@
+// ============================================
+// KONFIGURASI DASAR
+// ============================================
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ============================================
+// ENUMS (Daftar Pilihan)
+// ============================================
+
+enum Role {
+  SUPERADMIN
+  ADMIN
+  MANAGER
+  KASIR
+  GUDANG
+}
+
+enum PaymentType {
+  CASH
+  CARD
+  QRIS
+  TRANSFER
+}
+
+enum SaleStatus {
+  COMPLETED
+  CANCELLED
+  REFUNDED
+}
+
+// ============================================
+// TABEL BRANCH (Cabang/Toko)
+// ============================================
+model Branch {
+  id        String   @id @default(uuid())
+  name      String
+  code      String   @unique
+  address   String?
+  phone     String?
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relasi: satu cabang punya banyak user
+  users  User[]
+  // Relasi: satu cabang punya banyak stok
+  stocks Stock[]
+  // Relasi: satu cabang punya banyak transaksi penjualan
+  sales  Sale[]
+}
+
+// ============================================
+// TABEL USER (Pengguna / Karyawan)
+// ============================================
+model User {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  password  String
+  name      String
+  role      Role     @default(KASIR)
+  branchId  String   @map("branch_id")
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relasi ke Branch (setiap user punya satu cabang)
+  branch Branch @relation(fields: [branchId], references: [id], onDelete: Cascade)
+
+  // Relasi: satu user punya banyak transaksi penjualan
+  sales Sale[]
+}
+
+// ============================================
+// TABEL CATEGORY (Kategori Produk)
+// ============================================
+model Category {
+  id          String   @id @default(uuid())
+  name        String   @unique
+  description String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Relasi: satu kategori punya banyak produk
+  products Product[]
+}
+
+// ============================================
+// TABEL PRODUCT (Produk/Barang)
+// ============================================
+model Product {
+  id          String   @id @default(uuid())
+  sku         String   @unique
+  name        String
+  description String?
+  buyPrice    Float    @map("buy_price")
+  sellPrice   Float    @map("sell_price")
+  categoryId  String   @map("category_id")
+  imageUrl    String?  @map("image_url")
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Relasi ke Category (setiap produk punya satu kategori)
+  category Category @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+
+  // Relasi: satu produk punya banyak stok (per cabang)
+  stocks Stock[]
+
+  // Relasi: satu produk bisa muncul di banyak item penjualan
+  saleItems SaleItem[]
+}
+
+// ============================================
+// TABEL STOCK (Stok per Cabang)
+// ============================================
+model Stock {
+  id        String   @id @default(uuid())
+  productId String   @map("product_id")
+  branchId  String   @map("branch_id")
+  quantity  Int      @default(0)
+  minStock  Int      @default(5) @map("min_stock")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relasi ke Product (setiap stok punya satu produk)
+  product Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  // Relasi ke Branch (setiap stok punya satu cabang)
+  branch Branch @relation(fields: [branchId], references: [id], onDelete: Cascade)
+
+  // Kombinasi productId + branchId harus UNIK
+  @@unique([productId, branchId])
+}
+
+// ============================================
+// TABEL SALE (Transaksi Penjualan)
+// ============================================
+model Sale {
+  id           String      @id @default(uuid())
+  invoiceNo    String      @unique @map("invoice_no")
+  branchId     String      @map("branch_id")
+  userId       String      @map("user_id")
+  customerName String?     @map("customer_name")
+  subtotal     Float
+  discount     Float       @default(0)
+  tax          Float       @default(0)
+  grandTotal   Float       @map("grand_total")
+  paymentType  PaymentType @default(CASH)
+  status       SaleStatus  @default(COMPLETED)
+  createdAt    DateTime    @default(now())
+
+  // Relasi ke Branch (setiap transaksi punya satu cabang)
+  branch Branch @relation(fields: [branchId], references: [id], onDelete: Cascade)
+
+  // Relasi ke User (setiap transaksi punya satu kasir)
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  // Relasi: satu transaksi punya banyak item
+  items SaleItem[]
+}
+
+// ============================================
+// TABEL SALE_ITEM (Item dalam Transaksi)
+// ============================================
+model SaleItem {
+  id        String @id @default(uuid())
+  saleId    String @map("sale_id")
+  productId String @map("product_id")
+  quantity  Int
+  price     Float
+  total     Float
+
+  // Relasi ke Sale (setiap item punya satu transaksi)
+  sale Sale @relation(fields: [saleId], references: [id], onDelete: Cascade)
+
+  // Relasi ke Product (setiap item punya satu produk)
+  product Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+}
