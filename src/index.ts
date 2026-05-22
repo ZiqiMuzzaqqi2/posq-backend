@@ -22,6 +22,7 @@ import branchRoute from "../src/routes/branch.route";
 import userRoute from "../src/routes/user.route";
 import categoryRoute from "../src/routes/category.route";
 import productRoute from "../src/routes/product.route";
+import stockRoute from "../src/routes/stock.route";
 
 import uploadRoute from "../src/routes/upload.route";
 
@@ -81,6 +82,7 @@ app.use("/api/branches", branchRoute);
 app.use("/api/users", userRoute);
 app.use("/api/categories", categoryRoute);
 app.use("/api/products", productRoute);
+app.use("/api/stocks", stockRoute);
 
 app.use("/api/upload", uploadRoute);
 

@@ -627,3 +627,789 @@
 2026-05-22 22:21:26:2126 [35m[bd8a7805-5f90-4ce8-846c-b8d12c0dda62] Response 200 - 7ms - GET /api/products[39m
 2026-05-22 22:21:26:2126 [35m[5511cb5b-73dc-412e-b0b2-dd05ff562eac] GET /api/categories - IP: ::1[39m
 2026-05-22 22:21:26:2126 [35m[5511cb5b-73dc-412e-b0b2-dd05ff562eac] Response 200 - 4ms - GET /api/categories[39m
+2026-05-22 22:24:42:2442 [32m✅ Database connected successfully[39m
+2026-05-22 22:24:42:2442 [32m[39m
+[32m==================================================[39m
+[32m🚀 PosQ Backend Server Started[39m
+[32m==================================================[39m
+[32m📡 Server running on: http://localhost:8000[39m
+[32m❤️  Health check: http://localhost:8000/health[39m
+[32m🔐 Auth API: http://localhost:8000/api/auth[39m
+[32m💾 Database status: CONNECTED ✅[39m
+[32m==================================================[39m
+[32m[39m
+2026-05-22 22:25:21:2521 [35m[d30f56b7-286f-4530-8024-c2f679ffe5cc] GET /api/categories - IP: ::1[39m
+2026-05-22 22:25:21:2521 [35m[964f39fd-c8a1-4baf-aa06-d9a552cfe77b] GET /api/products - IP: ::1[39m
+2026-05-22 22:25:21:2521 [35m[d30f56b7-286f-4530-8024-c2f679ffe5cc] Response 200 - 37ms - GET /api/categories[39m
+2026-05-22 22:25:21:2521 [35m[1b904f3b-512b-487d-a96f-5282e7ea48d9] GET /api/categories - IP: ::1[39m
+2026-05-22 22:25:21:2521 [35m[1b904f3b-512b-487d-a96f-5282e7ea48d9] Response 200 - 8ms - GET /api/categories[39m
+2026-05-22 22:25:21:2521 [35m[84d2f502-13e7-41eb-a45b-7bae4928b214] GET /api/categories - IP: ::1[39m
+2026-05-22 22:25:21:2521 [35m[84d2f502-13e7-41eb-a45b-7bae4928b214] Response 200 - 5ms - GET /api/categories[39m
+2026-05-22 22:25:21:2521 [35m[8be3c792-f60a-4d34-9478-d61e64f98b60] GET /api/categories - IP: ::1[39m
+2026-05-22 22:25:21:2521 [35m[8be3c792-f60a-4d34-9478-d61e64f98b60] Response 200 - 7ms - GET /api/categories[39m
+2026-05-22 22:25:21:2521 [35m[964f39fd-c8a1-4baf-aa06-d9a552cfe77b] Response 200 - 129ms - GET /api/products[39m
+2026-05-22 22:25:21:2521 [35m[29d48522-b561-4bce-aef0-8a8a8de44e1f] GET /api/products - IP: ::1[39m
+2026-05-22 22:25:21:2521 [35m[29d48522-b561-4bce-aef0-8a8a8de44e1f] Response 200 - 7ms - GET /api/products[39m
+2026-05-22 22:25:21:2521 [35m[9b3012c3-04e0-461f-8843-068c8f07bca3] GET /uploads/products/49d7322a-2f7e-4203-bfb8-2bf6761e2ee8.jpeg - IP: ::1[39m
+2026-05-22 22:42:04:424 [35m[060d7e36-bad2-4714-8bbc-7c4f7e4cb9ae] GET /api/branches - IP: ::1[39m
+2026-05-22 22:42:04:424 [35m[060d7e36-bad2-4714-8bbc-7c4f7e4cb9ae] Response 200 - 63ms - GET /api/branches[39m
+2026-05-22 22:42:04:424 [35m[b77f077a-9a0b-403e-9d59-946ddd4b77e8] GET /api/branches - IP: ::1[39m
+2026-05-22 22:42:04:424 [35m[b77f077a-9a0b-403e-9d59-946ddd4b77e8] Response 200 - 4ms - GET /api/branches[39m
+2026-05-22 22:42:18:4218 [35m[de157d34-2fe7-4fd1-b40b-e56f10c4839e] GET /api/branches - IP: ::1[39m
+2026-05-22 22:42:18:4218 [35m[de157d34-2fe7-4fd1-b40b-e56f10c4839e] Response 200 - 5ms - GET /api/branches[39m
+2026-05-22 22:42:18:4218 [35m[3e28bd4d-1e74-4c23-afdd-6bcaa45b96eb] GET /api/branches - IP: ::1[39m
+2026-05-22 22:42:18:4218 [35m[3e28bd4d-1e74-4c23-afdd-6bcaa45b96eb] Response 200 - 5ms - GET /api/branches[39m
+2026-05-22 22:42:20:4220 [35m[02fa763f-25e4-426a-aedf-fc838e0b4ce8] GET /api/branches - IP: ::1[39m
+2026-05-22 22:42:20:4220 [35m[48518b24-71fe-481c-9dcf-3f796dbd6091] GET /api/users - IP: ::1[39m
+2026-05-22 22:42:20:4220 [35m[02fa763f-25e4-426a-aedf-fc838e0b4ce8] Response 200 - 6ms - GET /api/branches[39m
+2026-05-22 22:42:20:4220 [35m[3d59ba00-d25c-4d6d-93f3-7dc5dd337814] GET /api/branches - IP: ::1[39m
+2026-05-22 22:42:20:4220 [35m[48518b24-71fe-481c-9dcf-3f796dbd6091] Response 200 - 7ms - GET /api/users[39m
+2026-05-22 22:42:20:4220 [35m[3d59ba00-d25c-4d6d-93f3-7dc5dd337814] Response 200 - 3ms - GET /api/branches[39m
+2026-05-22 22:42:20:4220 [35m[0b4debb0-d713-4141-a3f8-5e1dbd5bd7f5] GET /api/users - IP: ::1[39m
+2026-05-22 22:42:20:4220 [35m[10a0c1fa-7e3c-48d7-a408-c9714c7b5538] GET /api/branches - IP: ::1[39m
+2026-05-22 22:42:20:4220 [35m[0b4debb0-d713-4141-a3f8-5e1dbd5bd7f5] Response 200 - 4ms - GET /api/users[39m
+2026-05-22 22:42:20:4220 [35m[10a0c1fa-7e3c-48d7-a408-c9714c7b5538] Response 200 - 3ms - GET /api/branches[39m
+2026-05-22 22:42:20:4220 [35m[dfe7476f-600c-4851-be38-3c84653fbc86] GET /api/branches - IP: ::1[39m
+2026-05-22 22:42:20:4220 [35m[dfe7476f-600c-4851-be38-3c84653fbc86] Response 200 - 3ms - GET /api/branches[39m
+2026-05-22 22:42:21:4221 [35m[19d1c018-ef03-4363-aadd-fb04bac61664] GET /api/categories - IP: ::1[39m
+2026-05-22 22:42:21:4221 [35m[19d1c018-ef03-4363-aadd-fb04bac61664] Response 200 - 8ms - GET /api/categories[39m
+2026-05-22 22:42:21:4221 [35m[727aedb7-7071-4d21-bc7b-4068007bf990] GET /api/categories - IP: ::1[39m
+2026-05-22 22:42:21:4221 [35m[727aedb7-7071-4d21-bc7b-4068007bf990] Response 200 - 3ms - GET /api/categories[39m
+2026-05-22 22:42:23:4223 [35m[bcefc014-a434-419e-8e73-1bb83568b214] GET /api/categories - IP: ::1[39m
+2026-05-22 22:42:23:4223 [35m[f35d3e10-3fb9-4cd2-b59c-cca7b3341da9] GET /api/products - IP: ::1[39m
+2026-05-22 22:42:23:4223 [35m[bcefc014-a434-419e-8e73-1bb83568b214] Response 200 - 5ms - GET /api/categories[39m
+2026-05-22 22:42:23:4223 [35m[725873de-b7b3-4d6e-8c64-550d32cc5f82] GET /api/categories - IP: ::1[39m
+2026-05-22 22:42:23:4223 [35m[f35d3e10-3fb9-4cd2-b59c-cca7b3341da9] Response 200 - 14ms - GET /api/products[39m
+2026-05-22 22:42:23:4223 [35m[a68dc81c-e0dc-42dc-bc7d-5986e8a9de81] GET /api/products - IP: ::1[39m
+2026-05-22 22:42:23:4223 [35m[a68dc81c-e0dc-42dc-bc7d-5986e8a9de81] Response 200 - 7ms - GET /api/products[39m
+2026-05-22 22:42:23:4223 [35m[52257f98-d2d0-43f8-80d2-44fff0ed306b] GET /uploads/products/49d7322a-2f7e-4203-bfb8-2bf6761e2ee8.jpeg - IP: ::1[39m
+2026-05-22 22:42:23:4223 [35m[725873de-b7b3-4d6e-8c64-550d32cc5f82] Response 200 - 62ms - GET /api/categories[39m
+2026-05-22 22:42:23:4223 [35m[d7b94ab5-3ef9-4c33-ab3d-af7523f97636] GET /api/categories - IP: ::1[39m
+2026-05-22 22:42:23:4223 [35m[d7b94ab5-3ef9-4c33-ab3d-af7523f97636] Response 200 - 3ms - GET /api/categories[39m
+2026-05-22 22:42:23:4223 [35m[f9da4bbf-97aa-48a0-8f5d-01c0f689395a] GET /api/categories - IP: ::1[39m
+2026-05-22 22:42:23:4223 [35m[f9da4bbf-97aa-48a0-8f5d-01c0f689395a] Response 200 - 3ms - GET /api/categories[39m
+2026-05-22 23:46:57:4657 [35m[8ecc33f2-d257-43d8-99e7-7a3849298a49] GET /api/categories - IP: ::1[39m
+2026-05-22 23:46:57:4657 [35m[63cfa7a4-0c0d-46b8-946d-ef2ed71b438c] GET /api/products - IP: ::1[39m
+2026-05-22 23:46:57:4657 [35m[8ecc33f2-d257-43d8-99e7-7a3849298a49] Response 200 - 74ms - GET /api/categories[39m
+2026-05-22 23:46:57:4657 [35m[d28c2d5f-2a03-4949-82f0-01149ed7edd4] GET /api/categories - IP: ::1[39m
+2026-05-22 23:46:57:4657 [35m[d28c2d5f-2a03-4949-82f0-01149ed7edd4] Response 200 - 5ms - GET /api/categories[39m
+2026-05-22 23:46:57:4657 [35m[89a843ac-c9ed-495c-a12a-b7e626e30ae6] GET /api/categories - IP: ::1[39m
+2026-05-22 23:46:57:4657 [35m[63cfa7a4-0c0d-46b8-946d-ef2ed71b438c] Response 200 - 88ms - GET /api/products[39m
+2026-05-22 23:46:57:4657 [35m[89a843ac-c9ed-495c-a12a-b7e626e30ae6] Response 200 - 5ms - GET /api/categories[39m
+2026-05-22 23:46:57:4657 [35m[a03f24fd-844c-4c21-baf1-632fa88e64aa] GET /api/products - IP: ::1[39m
+2026-05-22 23:46:57:4657 [35m[202fbde3-33a6-4978-bb3e-bf376779f079] GET /api/categories - IP: ::1[39m
+2026-05-22 23:46:57:4657 [35m[202fbde3-33a6-4978-bb3e-bf376779f079] Response 200 - 5ms - GET /api/categories[39m
+2026-05-22 23:46:57:4657 [35m[a03f24fd-844c-4c21-baf1-632fa88e64aa] Response 200 - 8ms - GET /api/products[39m
+2026-05-22 23:46:57:4657 [35m[9cfc9cfe-c8e7-4efd-b48a-42c273be141e] GET /uploads/products/49d7322a-2f7e-4203-bfb8-2bf6761e2ee8.jpeg - IP: ::1[39m
+2026-05-22 23:46:58:4658 [35m[3106cc2e-1a61-4f30-9a4e-7864ab9bb4d3] GET /api/categories - IP: ::1[39m
+2026-05-22 23:46:58:4658 [35m[3106cc2e-1a61-4f30-9a4e-7864ab9bb4d3] Response 200 - 3ms - GET /api/categories[39m
+2026-05-22 23:46:58:4658 [35m[67304690-e9d2-4e4c-ae07-0fddf0b88bcc] GET /api/categories - IP: ::1[39m
+2026-05-22 23:46:58:4658 [35m[67304690-e9d2-4e4c-ae07-0fddf0b88bcc] Response 200 - 4ms - GET /api/categories[39m
+2026-05-22 23:47:29:4729 [35m[3ca58aa6-65b4-488b-9f66-9ab0e4240746] PUT /api/categories/5db2969d-c55b-4597-9290-3ef5ac759c6b - IP: ::1[39m
+2026-05-22 23:47:29:4729 [35m[3ca58aa6-65b4-488b-9f66-9ab0e4240746] Response 200 - 27ms - PUT /api/categories/5db2969d-c55b-4597-9290-3ef5ac759c6b[39m
+2026-05-22 23:47:29:4729 [35m[4844de3b-4740-4be1-94d2-bcb5f042900c] GET /api/categories - IP: ::1[39m
+2026-05-22 23:47:29:4729 [35m[4844de3b-4740-4be1-94d2-bcb5f042900c] Response 200 - 3ms - GET /api/categories[39m
+2026-05-22 23:47:32:4732 [35m[9836e895-fa97-4ef0-a007-dc58ec0258f7] GET /api/categories - IP: ::1[39m
+2026-05-22 23:47:32:4732 [35m[9836e895-fa97-4ef0-a007-dc58ec0258f7] Response 200 - 5ms - GET /api/categories[39m
+2026-05-22 23:47:32:4732 [35m[890655c4-c09e-4a22-b305-08f5556991dc] GET /api/categories - IP: ::1[39m
+2026-05-22 23:47:32:4732 [35m[890655c4-c09e-4a22-b305-08f5556991dc] Response 200 - 6ms - GET /api/categories[39m
+2026-05-22 23:47:33:4733 [35m[5f5fd1c8-907c-4b37-aaf4-4a79b516040c] GET /api/categories - IP: ::1[39m
+2026-05-22 23:47:33:4733 [35m[dfd06e99-f6a9-47fc-86f7-3aeb8a0c8db0] GET /api/products - IP: ::1[39m
+2026-05-22 23:47:33:4733 [35m[5f5fd1c8-907c-4b37-aaf4-4a79b516040c] Response 200 - 6ms - GET /api/categories[39m
+2026-05-22 23:47:33:4733 [35m[d62277e1-8910-40bd-a626-530b709f7a21] GET /api/categories - IP: ::1[39m
+2026-05-22 23:47:33:4733 [35m[dfd06e99-f6a9-47fc-86f7-3aeb8a0c8db0] Response 200 - 8ms - GET /api/products[39m
+2026-05-22 23:47:33:4733 [35m[d62277e1-8910-40bd-a626-530b709f7a21] Response 200 - 5ms - GET /api/categories[39m
+2026-05-22 23:47:33:4733 [35m[2b04fa59-3893-4ede-9dfd-07b932a27eac] GET /api/products - IP: ::1[39m
+2026-05-22 23:47:33:4733 [35m[a6467dfb-e5db-426f-829f-f3fe1cf726ab] GET /api/categories - IP: ::1[39m
+2026-05-22 23:47:33:4733 [35m[a6467dfb-e5db-426f-829f-f3fe1cf726ab] Response 200 - 2ms - GET /api/categories[39m
+2026-05-22 23:47:33:4733 [35m[2b04fa59-3893-4ede-9dfd-07b932a27eac] Response 200 - 6ms - GET /api/products[39m
+2026-05-22 23:47:33:4733 [35m[131de06c-9f66-4fc3-afb1-3831c42cb8f9] GET /api/categories - IP: ::1[39m
+2026-05-22 23:47:33:4733 [35m[131de06c-9f66-4fc3-afb1-3831c42cb8f9] Response 200 - 5ms - GET /api/categories[39m
+2026-05-22 23:47:33:4733 [35m[858f5148-9eb7-434b-ace6-9936cc5d6a63] GET /uploads/products/49d7322a-2f7e-4203-bfb8-2bf6761e2ee8.jpeg - IP: ::1[39m
+2026-05-22 23:49:32:4932 [35m[5eda10df-435f-4c37-a7a1-6c9aea4a3c13] PUT /api/products/0c39fcde-2b45-43f0-848a-a940176a533a - IP: ::1[39m
+2026-05-22 23:49:33:4933 [35m[5eda10df-435f-4c37-a7a1-6c9aea4a3c13] Response 200 - 1736ms - PUT /api/products/0c39fcde-2b45-43f0-848a-a940176a533a[39m
+2026-05-22 23:49:33:4933 [35m[83e76627-2d32-43ce-8e5a-e7efcead486d] GET /api/products - IP: ::1[39m
+2026-05-22 23:49:33:4933 [35m[83e76627-2d32-43ce-8e5a-e7efcead486d] Response 200 - 6ms - GET /api/products[39m
+2026-05-22 23:49:42:4942 [35m[b0e6f9ae-5860-4212-a408-ed59aee08197] PATCH /api/products/0c39fcde-2b45-43f0-848a-a940176a533a/toggle - IP: ::1[39m
+2026-05-22 23:49:42:4942 [35m[b0e6f9ae-5860-4212-a408-ed59aee08197] Response 200 - 7ms - PATCH /api/products/0c39fcde-2b45-43f0-848a-a940176a533a/toggle[39m
+2026-05-22 23:49:42:4942 [35m[e27dd0c7-f770-4ec6-8a9c-e3eb9ddb91d1] GET /api/products - IP: ::1[39m
+2026-05-22 23:49:42:4942 [35m[e27dd0c7-f770-4ec6-8a9c-e3eb9ddb91d1] Response 200 - 6ms - GET /api/products[39m
+2026-05-22 23:49:43:4943 [35m[32834d85-8da5-4ee1-9497-f62578522c98] PATCH /api/products/0c39fcde-2b45-43f0-848a-a940176a533a/toggle - IP: ::1[39m
+2026-05-22 23:49:43:4943 [35m[32834d85-8da5-4ee1-9497-f62578522c98] Response 200 - 17ms - PATCH /api/products/0c39fcde-2b45-43f0-848a-a940176a533a/toggle[39m
+2026-05-22 23:49:43:4943 [35m[c1955b82-61ed-4291-a1b2-7794ce26f1f7] GET /api/products - IP: ::1[39m
+2026-05-22 23:49:43:4943 [35m[c1955b82-61ed-4291-a1b2-7794ce26f1f7] Response 200 - 5ms - GET /api/products[39m
+2026-05-23 00:06:56:656 [32m✅ Database connected successfully[39m
+2026-05-23 00:06:56:656 [32m[39m
+[32m==================================================[39m
+[32m🚀 PosQ Backend Server Started[39m
+[32m==================================================[39m
+[32m📡 Server running on: http://localhost:8000[39m
+[32m❤️  Health check: http://localhost:8000/health[39m
+[32m🔐 Auth API: http://localhost:8000/api/auth[39m
+[32m💾 Database status: CONNECTED ✅[39m
+[32m==================================================[39m
+[32m[39m
+2026-05-23 00:30:45:3045 [35m[7b8101d9-04b3-41c9-885e-bbb36ba4aa87] GET /api/categories - IP: ::1[39m
+2026-05-23 00:30:45:3045 [35m[7be64327-2018-4dff-bafb-105271997c4e] GET /api/products - IP: ::1[39m
+2026-05-23 00:30:45:3045 [35m[7b8101d9-04b3-41c9-885e-bbb36ba4aa87] Response 200 - 635ms - GET /api/categories[39m
+2026-05-23 00:30:45:3045 [35m[7be64327-2018-4dff-bafb-105271997c4e] Response 200 - 519ms - GET /api/products[39m
+2026-05-23 00:30:45:3045 [35m[ccba0d89-7824-4a73-91fa-b4d7d3a8859a] GET /api/categories - IP: ::1[39m
+2026-05-23 00:30:45:3045 [35m[c4d40fc4-b60b-451f-ac30-162991009e4d] GET /api/products - IP: ::1[39m
+2026-05-23 00:30:45:3045 [35m[ccba0d89-7824-4a73-91fa-b4d7d3a8859a] Response 200 - 5ms - GET /api/categories[39m
+2026-05-23 00:30:45:3045 [35m[c4d40fc4-b60b-451f-ac30-162991009e4d] Response 200 - 6ms - GET /api/products[39m
+2026-05-23 00:30:45:3045 [35m[9fad228e-e5d5-462f-8009-951975d6f906] GET /api/categories - IP: ::1[39m
+2026-05-23 00:30:45:3045 [35m[0ae7a506-8f0a-4086-bfe2-f639db804d67] GET /uploads/products/49d7322a-2f7e-4203-bfb8-2bf6761e2ee8.jpeg - IP: ::1[39m
+2026-05-23 00:30:45:3045 [35m[9fad228e-e5d5-462f-8009-951975d6f906] Response 200 - 9ms - GET /api/categories[39m
+2026-05-23 00:30:45:3045 [35m[50e3e595-f435-47a4-8b0c-b67361bc08e7] GET /api/categories - IP: ::1[39m
+2026-05-23 00:30:45:3045 [35m[50e3e595-f435-47a4-8b0c-b67361bc08e7] Response 200 - 3ms - GET /api/categories[39m
+2026-05-23 00:34:28:3428 [35m[0e5c8415-39fa-402f-9492-602cacd0fb90] GET /api/branches - IP: ::1[39m
+2026-05-23 00:34:29:3429 [35m[c845370b-be0b-4020-a9d3-7b06d96e4af5] GET /api/users - IP: ::1[39m
+2026-05-23 00:34:30:3430 [35m[0e5c8415-39fa-402f-9492-602cacd0fb90] Response 200 - 1592ms - GET /api/branches[39m
+2026-05-23 00:34:30:3430 [35m[880b56e1-0bfd-4dc9-9bac-7fb475fb8668] GET /api/branches - IP: ::1[39m
+2026-05-23 00:34:30:3430 [35m[c845370b-be0b-4020-a9d3-7b06d96e4af5] Response 200 - 947ms - GET /api/users[39m
+2026-05-23 00:34:30:3430 [35m[880b56e1-0bfd-4dc9-9bac-7fb475fb8668] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 00:34:30:3430 [35m[14ba27f7-a188-4867-966d-e8dedd89275f] GET /api/users - IP: ::1[39m
+2026-05-23 00:34:30:3430 [35m[4b390cfe-3a78-4e02-9408-2b01f32dadc8] GET /api/branches - IP: ::1[39m
+2026-05-23 00:34:30:3430 [35m[14ba27f7-a188-4867-966d-e8dedd89275f] Response 200 - 5ms - GET /api/users[39m
+2026-05-23 00:34:30:3430 [35m[4b390cfe-3a78-4e02-9408-2b01f32dadc8] Response 200 - 5ms - GET /api/branches[39m
+2026-05-23 00:34:30:3430 [35m[f7e5b3bc-1f00-4670-880c-4bc1deeaec8e] GET /api/branches - IP: ::1[39m
+2026-05-23 00:34:30:3430 [35m[f7e5b3bc-1f00-4670-880c-4bc1deeaec8e] Response 200 - 3ms - GET /api/branches[39m
+2026-05-23 00:34:30:3430 [35m[da8c4fe8-eddb-46a7-8382-a0afa888a8d6] GET /api/branches - IP: ::1[39m
+2026-05-23 00:34:30:3430 [35m[da8c4fe8-eddb-46a7-8382-a0afa888a8d6] Response 200 - 3ms - GET /api/branches[39m
+2026-05-23 00:34:30:3430 [35m[6fb5f5d4-9732-4007-9f26-9e83e784c985] GET /api/branches - IP: ::1[39m
+2026-05-23 00:34:30:3430 [35m[6fb5f5d4-9732-4007-9f26-9e83e784c985] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 00:34:31:3431 [35m[e5df868b-f171-42a6-ae2d-b217b5f718ce] GET /api/branches - IP: ::1[39m
+2026-05-23 00:34:31:3431 [35m[e5df868b-f171-42a6-ae2d-b217b5f718ce] Response 200 - 3ms - GET /api/branches[39m
+2026-05-23 00:34:31:3431 [35m[1647c87b-731c-43d5-afc6-ba0dd651801e] GET /api/branches - IP: ::1[39m
+2026-05-23 00:34:31:3431 [35m[1647c87b-731c-43d5-afc6-ba0dd651801e] Response 200 - 3ms - GET /api/branches[39m
+2026-05-23 00:34:33:3433 [35m[fa4f8c20-51d9-4462-a1e6-9cea9c7ee327] GET /api/categories - IP: ::1[39m
+2026-05-23 00:34:33:3433 [35m[fa4f8c20-51d9-4462-a1e6-9cea9c7ee327] Response 200 - 3ms - GET /api/categories[39m
+2026-05-23 00:34:33:3433 [35m[a4eb15e0-11c0-466d-b4ac-ee56c9b605ba] GET /api/categories - IP: ::1[39m
+2026-05-23 00:34:33:3433 [35m[a4eb15e0-11c0-466d-b4ac-ee56c9b605ba] Response 200 - 3ms - GET /api/categories[39m
+2026-05-23 00:34:34:3434 [35m[33b66d63-5e19-4063-b6e7-ef9aa31c2e4c] GET /api/categories - IP: ::1[39m
+2026-05-23 00:34:34:3434 [35m[19f13d1d-6d5f-4fdc-a89d-f47aa70194e0] GET /api/products - IP: ::1[39m
+2026-05-23 00:34:34:3434 [35m[33b66d63-5e19-4063-b6e7-ef9aa31c2e4c] Response 200 - 6ms - GET /api/categories[39m
+2026-05-23 00:34:34:3434 [35m[1e33db2b-5bd9-49a5-b66e-8efaec6af540] GET /api/categories - IP: ::1[39m
+2026-05-23 00:34:34:3434 [35m[19f13d1d-6d5f-4fdc-a89d-f47aa70194e0] Response 200 - 7ms - GET /api/products[39m
+2026-05-23 00:34:34:3434 [35m[1e33db2b-5bd9-49a5-b66e-8efaec6af540] Response 200 - 3ms - GET /api/categories[39m
+2026-05-23 00:34:34:3434 [35m[8274a677-a0ef-4e8a-bdb4-ee57d4eb98a2] GET /api/products - IP: ::1[39m
+2026-05-23 00:34:34:3434 [35m[c441162b-7731-43ec-9e47-92f65b94edf9] GET /api/categories - IP: ::1[39m
+2026-05-23 00:34:34:3434 [35m[8274a677-a0ef-4e8a-bdb4-ee57d4eb98a2] Response 200 - 6ms - GET /api/products[39m
+2026-05-23 00:34:34:3434 [35m[c441162b-7731-43ec-9e47-92f65b94edf9] Response 200 - 5ms - GET /api/categories[39m
+2026-05-23 00:34:34:3434 [35m[1bc488e6-7d0e-470d-b1e5-9919d4c0982d] GET /api/categories - IP: ::1[39m
+2026-05-23 00:34:34:3434 [35m[c90dc13e-ba6d-4af0-9e82-4508106cb6df] GET /uploads/products/49d7322a-2f7e-4203-bfb8-2bf6761e2ee8.jpeg - IP: ::1[39m
+2026-05-23 00:34:34:3434 [35m[1bc488e6-7d0e-470d-b1e5-9919d4c0982d] Response 200 - 4ms - GET /api/categories[39m
+2026-05-23 00:34:36:3436 [35m[c72850a2-dfbd-4a48-a0b0-ea301dd58db3] GET /api/categories - IP: ::1[39m
+2026-05-23 00:34:36:3436 [35m[c72850a2-dfbd-4a48-a0b0-ea301dd58db3] Response 200 - 4ms - GET /api/categories[39m
+2026-05-23 00:34:36:3436 [35m[edc5553a-778e-4af5-811e-49b7db3fe649] GET /api/categories - IP: ::1[39m
+2026-05-23 00:34:36:3436 [35m[edc5553a-778e-4af5-811e-49b7db3fe649] Response 200 - 4ms - GET /api/categories[39m
+2026-05-23 00:34:36:3436 [35m[8c3c552c-0cee-46e3-b507-d025b96707ec] GET /api/branches - IP: ::1[39m
+2026-05-23 00:34:36:3436 [35m[c10967cf-9669-4b3e-81ae-6f59f13896cb] GET /api/users - IP: ::1[39m
+2026-05-23 00:34:36:3436 [35m[8c3c552c-0cee-46e3-b507-d025b96707ec] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 00:34:36:3436 [35m[c10967cf-9669-4b3e-81ae-6f59f13896cb] Response 200 - 5ms - GET /api/users[39m
+2026-05-23 00:34:36:3436 [35m[dd5884fb-bcb9-4529-95f3-b92962a72ffd] GET /api/branches - IP: ::1[39m
+2026-05-23 00:34:36:3436 [35m[50807582-2554-45df-9d28-6a20ca1ada19] GET /api/users - IP: ::1[39m
+2026-05-23 00:34:36:3436 [35m[dd5884fb-bcb9-4529-95f3-b92962a72ffd] Response 200 - 5ms - GET /api/branches[39m
+2026-05-23 00:34:36:3436 [35m[50807582-2554-45df-9d28-6a20ca1ada19] Response 200 - 4ms - GET /api/users[39m
+2026-05-23 00:34:36:3436 [35m[3fb19c4b-923a-47c9-8133-4d73be0f00f0] GET /api/branches - IP: ::1[39m
+2026-05-23 00:34:36:3436 [35m[3fb19c4b-923a-47c9-8133-4d73be0f00f0] Response 200 - 3ms - GET /api/branches[39m
+2026-05-23 00:34:36:3436 [35m[1d74af8e-882f-4255-ae92-295b4d6f2caf] GET /api/branches - IP: ::1[39m
+2026-05-23 00:34:36:3436 [35m[1d74af8e-882f-4255-ae92-295b4d6f2caf] Response 200 - 3ms - GET /api/branches[39m
+2026-05-23 00:34:42:3442 [35m[81ac31f6-730d-4ab8-b3dd-b511a2589f8d] GET /api/branches - IP: ::1[39m
+2026-05-23 00:34:42:3442 [35m[81ac31f6-730d-4ab8-b3dd-b511a2589f8d] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 00:34:42:3442 [35m[88612b9b-ea69-49a5-911c-55ea4b3a6204] GET /api/branches - IP: ::1[39m
+2026-05-23 00:34:42:3442 [35m[88612b9b-ea69-49a5-911c-55ea4b3a6204] Response 200 - 3ms - GET /api/branches[39m
+2026-05-23 00:34:43:3443 [35m[f830ea9d-4501-412f-8e8c-cfe9ec6bcab2] GET /api/branches - IP: ::1[39m
+2026-05-23 00:34:43:3443 [35m[749c669e-36d4-42fb-a4ee-28855aa5f9e4] GET /api/users - IP: ::1[39m
+2026-05-23 00:34:43:3443 [35m[f830ea9d-4501-412f-8e8c-cfe9ec6bcab2] Response 200 - 5ms - GET /api/branches[39m
+2026-05-23 00:34:43:3443 [35m[749c669e-36d4-42fb-a4ee-28855aa5f9e4] Response 200 - 5ms - GET /api/users[39m
+2026-05-23 00:34:43:3443 [35m[4a1e9b2a-4fd8-47a7-8340-20c4a5d13d6f] GET /api/branches - IP: ::1[39m
+2026-05-23 00:34:43:3443 [35m[c7ce2020-b0a0-42f6-85ed-0547db276816] GET /api/users - IP: ::1[39m
+2026-05-23 00:34:43:3443 [35m[4a1e9b2a-4fd8-47a7-8340-20c4a5d13d6f] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 00:34:43:3443 [35m[c7ce2020-b0a0-42f6-85ed-0547db276816] Response 200 - 3ms - GET /api/users[39m
+2026-05-23 00:34:43:3443 [35m[2d796a08-2818-4128-8698-901c3161c74f] GET /api/branches - IP: ::1[39m
+2026-05-23 00:34:43:3443 [35m[2d796a08-2818-4128-8698-901c3161c74f] Response 200 - 3ms - GET /api/branches[39m
+2026-05-23 00:34:43:3443 [35m[69f81708-a584-4e19-a994-0c1538a91e32] GET /api/branches - IP: ::1[39m
+2026-05-23 00:34:43:3443 [35m[69f81708-a584-4e19-a994-0c1538a91e32] Response 200 - 3ms - GET /api/branches[39m
+2026-05-23 00:34:45:3445 [35m[592dedb1-fea0-4d87-abca-393371cfe63d] GET /api/categories - IP: ::1[39m
+2026-05-23 00:34:45:3445 [35m[592dedb1-fea0-4d87-abca-393371cfe63d] Response 200 - 4ms - GET /api/categories[39m
+2026-05-23 00:34:45:3445 [35m[591c4399-6d49-49da-825a-46a2e161fe28] GET /api/categories - IP: ::1[39m
+2026-05-23 00:34:45:3445 [35m[591c4399-6d49-49da-825a-46a2e161fe28] Response 200 - 3ms - GET /api/categories[39m
+2026-05-23 00:34:47:3447 [35m[4c846a2c-24a3-4a4c-9c08-7aac097b534c] GET /api/categories - IP: ::1[39m
+2026-05-23 00:34:47:3447 [35m[89cca622-a420-44e8-94c8-25b9d2f45026] GET /api/products - IP: ::1[39m
+2026-05-23 00:34:47:3447 [35m[4c846a2c-24a3-4a4c-9c08-7aac097b534c] Response 200 - 5ms - GET /api/categories[39m
+2026-05-23 00:34:47:3447 [35m[7b35e48f-4b78-4d79-b929-c6bf2a189594] GET /api/categories - IP: ::1[39m
+2026-05-23 00:34:47:3447 [35m[7b35e48f-4b78-4d79-b929-c6bf2a189594] Response 200 - 4ms - GET /api/categories[39m
+2026-05-23 00:34:47:3447 [35m[32d357da-b56d-405c-9207-64804d46f21c] GET /api/categories - IP: ::1[39m
+2026-05-23 00:34:47:3447 [35m[89cca622-a420-44e8-94c8-25b9d2f45026] Response 200 - 16ms - GET /api/products[39m
+2026-05-23 00:34:47:3447 [35m[32d357da-b56d-405c-9207-64804d46f21c] Response 200 - 4ms - GET /api/categories[39m
+2026-05-23 00:34:47:3447 [35m[ca3d68e8-1257-4a17-a6cb-bbebc4f7d369] GET /api/products - IP: ::1[39m
+2026-05-23 00:34:47:3447 [35m[4bcc0403-fbab-470e-b379-5c84a5502f27] GET /api/categories - IP: ::1[39m
+2026-05-23 00:34:47:3447 [35m[4bcc0403-fbab-470e-b379-5c84a5502f27] Response 200 - 3ms - GET /api/categories[39m
+2026-05-23 00:34:47:3447 [35m[ca3d68e8-1257-4a17-a6cb-bbebc4f7d369] Response 200 - 7ms - GET /api/products[39m
+2026-05-23 00:34:47:3447 [35m[e8357501-90e8-4412-92a4-fbc9fbab9d27] GET /uploads/products/49d7322a-2f7e-4203-bfb8-2bf6761e2ee8.jpeg - IP: ::1[39m
+2026-05-23 00:38:32:3832 [35m[97283660-9952-49fe-a711-36105ae467ff] GET /api/branches - IP: ::1[39m
+2026-05-23 00:38:32:3832 [35m[97283660-9952-49fe-a711-36105ae467ff] Response 200 - 59ms - GET /api/branches[39m
+2026-05-23 00:38:32:3832 [35m[35685fb7-e717-403b-b808-4d49b02940c1] GET /api/branches - IP: ::1[39m
+2026-05-23 00:38:32:3832 [35m[35685fb7-e717-403b-b808-4d49b02940c1] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 00:38:33:3833 [35m[c870f33e-4d70-43db-a1db-d3ed0ad0ab61] GET /api/branches - IP: ::1[39m
+2026-05-23 00:38:33:3833 [35m[8773d3bc-972d-4fc1-84e9-979689100746] GET /api/users - IP: ::1[39m
+2026-05-23 00:38:33:3833 [35m[c870f33e-4d70-43db-a1db-d3ed0ad0ab61] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 00:38:33:3833 [35m[282edad9-5dbf-4f3e-90f4-0d7cca3cff8c] GET /api/branches - IP: ::1[39m
+2026-05-23 00:38:33:3833 [35m[8773d3bc-972d-4fc1-84e9-979689100746] Response 200 - 7ms - GET /api/users[39m
+2026-05-23 00:38:33:3833 [35m[282edad9-5dbf-4f3e-90f4-0d7cca3cff8c] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 00:38:33:3833 [35m[40b76b30-eaf5-48f9-9571-7da703d2c8f3] GET /api/users - IP: ::1[39m
+2026-05-23 00:38:33:3833 [35m[65d25497-c8fb-4cf3-a9b8-ecbdbe0791d1] GET /api/branches - IP: ::1[39m
+2026-05-23 00:38:33:3833 [35m[40b76b30-eaf5-48f9-9571-7da703d2c8f3] Response 200 - 4ms - GET /api/users[39m
+2026-05-23 00:38:33:3833 [35m[65d25497-c8fb-4cf3-a9b8-ecbdbe0791d1] Response 200 - 64ms - GET /api/branches[39m
+2026-05-23 00:38:33:3833 [35m[85873b9a-f177-4c37-9882-1414bc6a5662] GET /api/branches - IP: ::1[39m
+2026-05-23 00:38:33:3833 [35m[85873b9a-f177-4c37-9882-1414bc6a5662] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 00:38:34:3834 [35m[12262ff7-5fb1-49f2-b98e-a91523147603] GET /api/categories - IP: ::1[39m
+2026-05-23 00:38:34:3834 [35m[12262ff7-5fb1-49f2-b98e-a91523147603] Response 200 - 7ms - GET /api/categories[39m
+2026-05-23 00:38:34:3834 [35m[0d0add66-8149-49eb-bcc1-f0f478160460] GET /api/categories - IP: ::1[39m
+2026-05-23 00:38:34:3834 [35m[0d0add66-8149-49eb-bcc1-f0f478160460] Response 200 - 3ms - GET /api/categories[39m
+2026-05-23 00:46:04:464 [32m✅ Database connected successfully[39m
+2026-05-23 00:46:04:464 [32m[39m
+[32m==================================================[39m
+[32m🚀 PosQ Backend Server Started[39m
+[32m==================================================[39m
+[32m📡 Server running on: http://localhost:8000[39m
+[32m❤️  Health check: http://localhost:8000/health[39m
+[32m🔐 Auth API: http://localhost:8000/api/auth[39m
+[32m💾 Database status: CONNECTED ✅[39m
+[32m==================================================[39m
+[32m[39m
+2026-05-23 00:47:07:477 [32m✅ Database connected successfully[39m
+2026-05-23 00:47:07:477 [32m[39m
+[32m==================================================[39m
+[32m🚀 PosQ Backend Server Started[39m
+[32m==================================================[39m
+[32m📡 Server running on: http://localhost:8000[39m
+[32m❤️  Health check: http://localhost:8000/health[39m
+[32m🔐 Auth API: http://localhost:8000/api/auth[39m
+[32m💾 Database status: CONNECTED ✅[39m
+[32m==================================================[39m
+[32m[39m
+2026-05-23 00:48:02:482 [32m✅ Database connected successfully[39m
+2026-05-23 00:48:02:482 [32m[39m
+[32m==================================================[39m
+[32m🚀 PosQ Backend Server Started[39m
+[32m==================================================[39m
+[32m📡 Server running on: http://localhost:8000[39m
+[32m❤️  Health check: http://localhost:8000/health[39m
+[32m🔐 Auth API: http://localhost:8000/api/auth[39m
+[32m💾 Database status: CONNECTED ✅[39m
+[32m==================================================[39m
+[32m[39m
+2026-05-23 00:49:33:4933 [32m✅ Database connected successfully[39m
+2026-05-23 00:49:33:4933 [32m[39m
+[32m==================================================[39m
+[32m🚀 PosQ Backend Server Started[39m
+[32m==================================================[39m
+[32m📡 Server running on: http://localhost:8000[39m
+[32m❤️  Health check: http://localhost:8000/health[39m
+[32m🔐 Auth API: http://localhost:8000/api/auth[39m
+[32m💾 Database status: CONNECTED ✅[39m
+[32m==================================================[39m
+[32m[39m
+2026-05-23 00:51:46:5146 [35m[7f4571df-2250-483f-a0e5-05e1c053bbf4] GET /api/stocks - IP: ::1[39m
+2026-05-23 00:51:46:5146 [35m[7f4571df-2250-483f-a0e5-05e1c053bbf4] Response 401 - 6ms - GET /api/stocks[39m
+2026-05-23 01:07:57:757 [35m[5898ab62-8e39-4299-835e-7accfdf55b46] GET /api/stocks - IP: ::1[39m
+2026-05-23 01:07:57:757 [35m[1f56599a-588f-4ce7-85e2-8f792b871eba] GET /api/branches - IP: ::1[39m
+2026-05-23 01:07:58:758 [35m[1f56599a-588f-4ce7-85e2-8f792b871eba] Response 200 - 816ms - GET /api/branches[39m
+2026-05-23 01:07:58:758 [35m[a5b5d6b3-a146-4f69-96e8-4e64b252cd4d] GET /api/branches - IP: ::1[39m
+2026-05-23 01:07:58:758 [35m[a5b5d6b3-a146-4f69-96e8-4e64b252cd4d] Response 200 - 5ms - GET /api/branches[39m
+2026-05-23 01:07:58:758 [35m[5898ab62-8e39-4299-835e-7accfdf55b46] Response 200 - 864ms - GET /api/stocks[39m
+2026-05-23 01:07:58:758 [35m[ff365c7b-1db8-4191-aa47-ad6b387ecc99] GET /api/stocks - IP: ::1[39m
+2026-05-23 01:07:58:758 [35m[ff365c7b-1db8-4191-aa47-ad6b387ecc99] Response 200 - 8ms - GET /api/stocks[39m
+2026-05-23 01:08:04:84 [35m[817f9786-68d6-4aac-a0a5-f6f76047e92e] GET /api/products?status=active - IP: ::1[39m
+2026-05-23 01:08:04:84 [35m[f31ec466-f82a-49d6-86b2-b7c169a9fff4] GET /api/branches - IP: ::1[39m
+2026-05-23 01:08:04:84 [35m[817f9786-68d6-4aac-a0a5-f6f76047e92e] Response 200 - 29ms - GET /api/products?status=active[39m
+2026-05-23 01:08:05:85 [35m[f31ec466-f82a-49d6-86b2-b7c169a9fff4] Response 200 - 110ms - GET /api/branches[39m
+2026-05-23 01:08:39:839 [35m[06c464e1-0189-4bcf-8113-1861b7dd486c] POST /api/stocks/adjust - IP: ::1[39m
+2026-05-23 01:08:39:839 [35m[06c464e1-0189-4bcf-8113-1861b7dd486c] Response 200 - 115ms - POST /api/stocks/adjust[39m
+2026-05-23 01:08:39:839 [35m[de376690-5555-409a-9794-f1895efc1d20] GET /api/stocks - IP: ::1[39m
+2026-05-23 01:08:39:839 [35m[de376690-5555-409a-9794-f1895efc1d20] Response 200 - 8ms - GET /api/stocks[39m
+2026-05-23 01:08:42:842 [35m[dd2a9937-6309-426e-8461-4cc53e2611fa] GET /api/products?status=active - IP: ::1[39m
+2026-05-23 01:08:42:842 [35m[68c6e6ca-c8ab-472b-a0dc-a8b3e2ec0bd6] GET /api/branches - IP: ::1[39m
+2026-05-23 01:08:42:842 [35m[68c6e6ca-c8ab-472b-a0dc-a8b3e2ec0bd6] Response 200 - 6ms - GET /api/branches[39m
+2026-05-23 01:08:42:842 [35m[dd2a9937-6309-426e-8461-4cc53e2611fa] Response 200 - 21ms - GET /api/products?status=active[39m
+2026-05-23 01:09:20:920 [35m[1deee858-5576-420c-b74c-1e8eefe5059c] GET /api/products?status=active - IP: ::1[39m
+2026-05-23 01:09:20:920 [35m[6fe8dfc3-4c88-4b81-bbaa-7cbe26085400] GET /api/branches - IP: ::1[39m
+2026-05-23 01:09:20:920 [35m[6fe8dfc3-4c88-4b81-bbaa-7cbe26085400] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 01:09:20:920 [35m[1deee858-5576-420c-b74c-1e8eefe5059c] Response 200 - 9ms - GET /api/products?status=active[39m
+2026-05-23 01:09:39:939 [35m[578e5e9e-a3a9-4c29-b355-80f63fcc0c85] POST /api/stocks/adjust - IP: ::1[39m
+2026-05-23 01:09:39:939 [35m[578e5e9e-a3a9-4c29-b355-80f63fcc0c85] Response 200 - 17ms - POST /api/stocks/adjust[39m
+2026-05-23 01:09:39:939 [35m[9eec1c0b-c278-4ca0-89d3-6a6065ec09fa] GET /api/stocks - IP: ::1[39m
+2026-05-23 01:09:39:939 [35m[9eec1c0b-c278-4ca0-89d3-6a6065ec09fa] Response 200 - 8ms - GET /api/stocks[39m
+2026-05-23 01:09:46:946 [35m[b83f217d-5c3c-4a74-8244-2f2afd66ae87] GET /api/stocks - IP: ::1[39m
+2026-05-23 01:09:46:946 [35m[266da42e-8b89-496d-8e3f-474db867f2a2] GET /api/branches - IP: ::1[39m
+2026-05-23 01:09:46:946 [35m[266da42e-8b89-496d-8e3f-474db867f2a2] Response 200 - 6ms - GET /api/branches[39m
+2026-05-23 01:09:46:946 [35m[b83f217d-5c3c-4a74-8244-2f2afd66ae87] Response 200 - 12ms - GET /api/stocks[39m
+2026-05-23 01:09:46:946 [35m[5b32f35b-3a22-489e-ad44-a2deac0de97c] GET /api/branches - IP: ::1[39m
+2026-05-23 01:09:46:946 [35m[957e5f12-4142-46aa-945e-cc5a21128895] GET /api/stocks - IP: ::1[39m
+2026-05-23 01:09:46:946 [35m[5b32f35b-3a22-489e-ad44-a2deac0de97c] Response 200 - 6ms - GET /api/branches[39m
+2026-05-23 01:09:46:946 [35m[957e5f12-4142-46aa-945e-cc5a21128895] Response 200 - 10ms - GET /api/stocks[39m
+2026-05-23 01:19:05:195 [35m[a20517bf-f657-491b-b468-6eef5503a6c5] GET /api/stocks - IP: ::1[39m
+2026-05-23 01:19:05:195 [35m[6c7c7a19-9a78-46fe-a3b9-6f0a7ad90379] GET /api/branches - IP: ::1[39m
+2026-05-23 01:19:05:195 [35m[6c7c7a19-9a78-46fe-a3b9-6f0a7ad90379] Response 200 - 147ms - GET /api/branches[39m
+2026-05-23 01:19:05:195 [35m[b08e5d63-04db-4290-a337-4ab8856743d8] GET /api/branches - IP: ::1[39m
+2026-05-23 01:19:05:195 [35m[b08e5d63-04db-4290-a337-4ab8856743d8] Response 200 - 7ms - GET /api/branches[39m
+2026-05-23 01:19:05:195 [35m[a20517bf-f657-491b-b468-6eef5503a6c5] Response 200 - 171ms - GET /api/stocks[39m
+2026-05-23 01:19:05:195 [35m[067aff6f-54f3-4c8e-be54-954f70a0a148] GET /api/stocks - IP: ::1[39m
+2026-05-23 01:19:05:195 [35m[067aff6f-54f3-4c8e-be54-954f70a0a148] Response 200 - 12ms - GET /api/stocks[39m
+2026-05-23 01:21:27:2127 [35m[f0f192b7-8020-4ac3-91ba-2d5569950617] GET /api/stocks - IP: ::1[39m
+2026-05-23 01:21:27:2127 [35m[ad001ba6-352a-4378-929b-3bcb657bf145] GET /api/branches - IP: ::1[39m
+2026-05-23 01:21:27:2127 [35m[f0f192b7-8020-4ac3-91ba-2d5569950617] Response 200 - 28ms - GET /api/stocks[39m
+2026-05-23 01:21:27:2127 [35m[ad001ba6-352a-4378-929b-3bcb657bf145] Response 200 - 37ms - GET /api/branches[39m
+2026-05-23 01:21:27:2127 [35m[d876d8e1-f28a-45c5-8213-7ff421e81cd5] GET /api/stocks - IP: ::1[39m
+2026-05-23 01:21:27:2127 [35m[4e3f2de4-b5b7-4362-8931-2f7aec62721d] GET /api/branches - IP: ::1[39m
+2026-05-23 01:21:27:2127 [35m[4e3f2de4-b5b7-4362-8931-2f7aec62721d] Response 200 - 11ms - GET /api/branches[39m
+2026-05-23 01:21:27:2127 [35m[d876d8e1-f28a-45c5-8213-7ff421e81cd5] Response 200 - 47ms - GET /api/stocks[39m
+2026-05-23 01:23:41:2341 [35m[ed13cc8a-c2d5-4a5b-9ec1-5c5e9790f47f] GET /api/branches - IP: ::1[39m
+2026-05-23 01:23:41:2341 [35m[1ddb358c-82db-4dc5-998e-97e8373e5a31] GET /api/stocks - IP: ::1[39m
+2026-05-23 01:23:41:2341 [35m[ed13cc8a-c2d5-4a5b-9ec1-5c5e9790f47f] Response 200 - 15ms - GET /api/branches[39m
+2026-05-23 01:23:41:2341 [35m[1ddb358c-82db-4dc5-998e-97e8373e5a31] Response 200 - 23ms - GET /api/stocks[39m
+2026-05-23 01:23:41:2341 [35m[4b986e35-12f9-4072-918d-3e862258d2e3] GET /api/branches - IP: ::1[39m
+2026-05-23 01:23:41:2341 [35m[8f425184-51ea-4422-b656-c491f4f0c5fd] GET /api/stocks - IP: ::1[39m
+2026-05-23 01:23:41:2341 [35m[4b986e35-12f9-4072-918d-3e862258d2e3] Response 200 - 30ms - GET /api/branches[39m
+2026-05-23 01:23:41:2341 [35m[8f425184-51ea-4422-b656-c491f4f0c5fd] Response 200 - 35ms - GET /api/stocks[39m
+2026-05-23 01:25:23:2523 [35m[da6c5d9a-a1b6-4247-b98d-0c6bcc201961] GET /api/stocks - IP: ::1[39m
+2026-05-23 01:25:23:2523 [35m[1850be56-28b3-4877-9145-ec070aaeb133] GET /api/branches - IP: ::1[39m
+2026-05-23 01:25:23:2523 [35m[1850be56-28b3-4877-9145-ec070aaeb133] Response 200 - 135ms - GET /api/branches[39m
+2026-05-23 01:25:23:2523 [35m[7f427996-cdcd-4819-b5a7-b45ab8d821fd] GET /api/branches - IP: ::1[39m
+2026-05-23 01:25:23:2523 [35m[da6c5d9a-a1b6-4247-b98d-0c6bcc201961] Response 200 - 148ms - GET /api/stocks[39m
+2026-05-23 01:25:23:2523 [35m[7f427996-cdcd-4819-b5a7-b45ab8d821fd] Response 200 - 6ms - GET /api/branches[39m
+2026-05-23 01:25:23:2523 [35m[f4c4b0b6-6e8c-499b-8dad-bc82eeeeeb29] GET /api/stocks - IP: ::1[39m
+2026-05-23 01:25:23:2523 [35m[f4c4b0b6-6e8c-499b-8dad-bc82eeeeeb29] Response 200 - 6ms - GET /api/stocks[39m
+2026-05-23 01:25:34:2534 [35m[cf215ef4-59a1-4585-bb8b-d6444e0d2ea0] GET /api/stocks - IP: ::1[39m
+2026-05-23 01:25:34:2534 [35m[6de774cd-4a49-4fa8-82f2-1b2e20581e45] GET /api/branches - IP: ::1[39m
+2026-05-23 01:25:34:2534 [35m[cf215ef4-59a1-4585-bb8b-d6444e0d2ea0] Response 200 - 12ms - GET /api/stocks[39m
+2026-05-23 01:25:34:2534 [35m[6de774cd-4a49-4fa8-82f2-1b2e20581e45] Response 200 - 13ms - GET /api/branches[39m
+2026-05-23 01:25:34:2534 [35m[4b39c30e-0352-4f35-b154-190d64364ada] GET /api/stocks - IP: ::1[39m
+2026-05-23 01:25:34:2534 [35m[08215942-7122-488e-af0e-36b38bdd4121] GET /api/branches - IP: ::1[39m
+2026-05-23 01:25:34:2534 [35m[08215942-7122-488e-af0e-36b38bdd4121] Response 200 - 7ms - GET /api/branches[39m
+2026-05-23 01:25:34:2534 [35m[4b39c30e-0352-4f35-b154-190d64364ada] Response 200 - 16ms - GET /api/stocks[39m
+2026-05-23 01:27:07:277 [35m[e4d6dc54-3d8a-49b3-983a-36878e126eac] GET /api/stocks - IP: ::1[39m
+2026-05-23 01:27:07:277 [35m[b94b2b74-63eb-4e9b-b109-f641df465eab] GET /api/branches - IP: ::1[39m
+2026-05-23 01:27:07:277 [35m[b94b2b74-63eb-4e9b-b109-f641df465eab] Response 200 - 11ms - GET /api/branches[39m
+2026-05-23 01:27:07:277 [35m[e4d6dc54-3d8a-49b3-983a-36878e126eac] Response 200 - 17ms - GET /api/stocks[39m
+2026-05-23 01:27:07:277 [35m[6c5128b4-82d6-47ed-918c-4d54a977d6bd] GET /api/branches - IP: ::1[39m
+2026-05-23 01:27:07:277 [35m[5fec0e1c-a9f2-40f2-8f1a-75bd8db7bf3a] GET /api/stocks - IP: ::1[39m
+2026-05-23 01:27:07:277 [35m[6c5128b4-82d6-47ed-918c-4d54a977d6bd] Response 200 - 7ms - GET /api/branches[39m
+2026-05-23 01:27:07:277 [35m[5fec0e1c-a9f2-40f2-8f1a-75bd8db7bf3a] Response 200 - 10ms - GET /api/stocks[39m
+2026-05-23 01:28:34:2834 [35m[71d2a793-8cf2-4eb9-9f22-490dfb4ffd51] GET /api/branches - IP: ::1[39m
+2026-05-23 01:28:34:2834 [35m[71d2a793-8cf2-4eb9-9f22-490dfb4ffd51] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 01:28:34:2834 [35m[b073ac8a-2ab1-4418-af58-9b1ea564eff2] GET /api/branches - IP: ::1[39m
+2026-05-23 01:28:34:2834 [35m[b073ac8a-2ab1-4418-af58-9b1ea564eff2] Response 200 - 2ms - GET /api/branches[39m
+2026-05-23 01:28:35:2835 [35m[f1f57e6c-239f-4548-b74d-9c35f8045f88] GET /api/branches - IP: ::1[39m
+2026-05-23 01:28:35:2835 [35m[4acc2a06-1b95-401c-bb17-773762ef61f2] GET /api/users - IP: ::1[39m
+2026-05-23 01:28:35:2835 [35m[f1f57e6c-239f-4548-b74d-9c35f8045f88] Response 200 - 8ms - GET /api/branches[39m
+2026-05-23 01:28:35:2835 [35m[4acc2a06-1b95-401c-bb17-773762ef61f2] Response 200 - 6ms - GET /api/users[39m
+2026-05-23 01:28:35:2835 [35m[44249e1b-23f2-44f3-8515-b48fde28e023] GET /api/branches - IP: ::1[39m
+2026-05-23 01:28:35:2835 [35m[6860d26c-fd66-499c-ad11-8cc2ee67359f] GET /api/users - IP: ::1[39m
+2026-05-23 01:28:35:2835 [35m[44249e1b-23f2-44f3-8515-b48fde28e023] Response 200 - 6ms - GET /api/branches[39m
+2026-05-23 01:28:35:2835 [35m[6860d26c-fd66-499c-ad11-8cc2ee67359f] Response 200 - 6ms - GET /api/users[39m
+2026-05-23 01:28:35:2835 [35m[263aa960-a582-40ca-b326-b3487d060a9d] GET /api/branches - IP: ::1[39m
+2026-05-23 01:28:35:2835 [35m[263aa960-a582-40ca-b326-b3487d060a9d] Response 200 - 3ms - GET /api/branches[39m
+2026-05-23 01:28:35:2835 [35m[ff57d0d7-7042-4e55-8b74-0557bae483f4] GET /api/branches - IP: ::1[39m
+2026-05-23 01:28:35:2835 [35m[ff57d0d7-7042-4e55-8b74-0557bae483f4] Response 200 - 3ms - GET /api/branches[39m
+2026-05-23 01:28:36:2836 [35m[edb18235-f2b5-4dc3-bdae-0b26c03fa979] GET /api/categories - IP: ::1[39m
+2026-05-23 01:28:36:2836 [35m[edb18235-f2b5-4dc3-bdae-0b26c03fa979] Response 200 - 21ms - GET /api/categories[39m
+2026-05-23 01:28:36:2836 [35m[194f1720-383b-4685-a998-ac527e88f8fa] GET /api/categories - IP: ::1[39m
+2026-05-23 01:28:36:2836 [35m[194f1720-383b-4685-a998-ac527e88f8fa] Response 200 - 3ms - GET /api/categories[39m
+2026-05-23 01:28:36:2836 [35m[db787de5-c4c5-4237-b665-dc1b79436e63] GET /api/categories - IP: ::1[39m
+2026-05-23 01:28:36:2836 [35m[82f1682e-03f7-42c8-b0d3-f35e63a652a2] GET /api/products - IP: ::1[39m
+2026-05-23 01:28:36:2836 [35m[db787de5-c4c5-4237-b665-dc1b79436e63] Response 200 - 5ms - GET /api/categories[39m
+2026-05-23 01:28:36:2836 [35m[111bbbb5-75be-41ec-9f00-2a8974487899] GET /api/categories - IP: ::1[39m
+2026-05-23 01:28:36:2836 [35m[82f1682e-03f7-42c8-b0d3-f35e63a652a2] Response 200 - 11ms - GET /api/products[39m
+2026-05-23 01:28:36:2836 [35m[930c1cad-8a42-4470-a552-6e726b8cf76d] GET /api/products - IP: ::1[39m
+2026-05-23 01:28:36:2836 [35m[930c1cad-8a42-4470-a552-6e726b8cf76d] Response 200 - 9ms - GET /api/products[39m
+2026-05-23 01:28:36:2836 [35m[d438ddd5-10f6-4970-9bf8-e334d1c5711b] GET /uploads/products/49d7322a-2f7e-4203-bfb8-2bf6761e2ee8.jpeg - IP: ::1[39m
+2026-05-23 01:28:37:2837 [35m[111bbbb5-75be-41ec-9f00-2a8974487899] Response 200 - 86ms - GET /api/categories[39m
+2026-05-23 01:28:37:2837 [35m[b198dd4f-4633-43da-85f2-32b4b0a85dac] GET /api/categories - IP: ::1[39m
+2026-05-23 01:28:37:2837 [35m[b198dd4f-4633-43da-85f2-32b4b0a85dac] Response 200 - 5ms - GET /api/categories[39m
+2026-05-23 01:28:37:2837 [35m[cfae6ab6-0cbb-4021-a859-f2a0e7436213] GET /api/categories - IP: ::1[39m
+2026-05-23 01:28:37:2837 [35m[cfae6ab6-0cbb-4021-a859-f2a0e7436213] Response 200 - 3ms - GET /api/categories[39m
+2026-05-23 01:28:39:2839 [35m[67fbced7-8860-41a8-a218-810b3c3f90e5] GET /api/branches - IP: ::1[39m
+2026-05-23 01:28:39:2839 [35m[54a58b2b-a876-4bf0-98c1-b3e5d3d94fcc] GET /api/stocks - IP: ::1[39m
+2026-05-23 01:28:39:2839 [35m[54a58b2b-a876-4bf0-98c1-b3e5d3d94fcc] Response 200 - 4ms - GET /api/stocks[39m
+2026-05-23 01:28:39:2839 [35m[67fbced7-8860-41a8-a218-810b3c3f90e5] Response 200 - 10ms - GET /api/branches[39m
+2026-05-23 01:28:39:2839 [35m[66d11621-1e82-4308-bd80-5b27134d4c8e] GET /api/stocks - IP: ::1[39m
+2026-05-23 01:28:39:2839 [35m[b8e224c9-6bfe-4f16-b592-2840209216c7] GET /api/branches - IP: ::1[39m
+2026-05-23 01:28:39:2839 [35m[66d11621-1e82-4308-bd80-5b27134d4c8e] Response 200 - 7ms - GET /api/stocks[39m
+2026-05-23 01:28:39:2839 [35m[b8e224c9-6bfe-4f16-b592-2840209216c7] Response 200 - 6ms - GET /api/branches[39m
+2026-05-23 01:31:03:313 [35m[d8760485-47ce-4003-9118-f4596acd9241] GET /api/products?status=active - IP: ::1[39m
+2026-05-23 01:31:03:313 [35m[1d1c9742-6a1f-47d5-bc0d-48d3cbb96933] GET /api/branches - IP: ::1[39m
+2026-05-23 01:31:03:313 [35m[d8760485-47ce-4003-9118-f4596acd9241] Response 200 - 13ms - GET /api/products?status=active[39m
+2026-05-23 01:31:04:314 [35m[1d1c9742-6a1f-47d5-bc0d-48d3cbb96933] Response 200 - 173ms - GET /api/branches[39m
+2026-05-23 01:36:00:360 [35m[01dda5f9-0b4b-4d73-a81a-b941511e37ce] GET /api/stocks - IP: ::1[39m
+2026-05-23 01:36:00:360 [35m[fedacdf7-056b-4e02-8d42-6c6c2f2316c2] GET /api/branches - IP: ::1[39m
+2026-05-23 01:36:00:360 [35m[fedacdf7-056b-4e02-8d42-6c6c2f2316c2] Response 200 - 9ms - GET /api/branches[39m
+2026-05-23 01:36:00:360 [35m[5ba7f67d-34f9-40ff-baa1-c833aef8f315] GET /api/branches - IP: ::1[39m
+2026-05-23 01:36:00:360 [35m[5ba7f67d-34f9-40ff-baa1-c833aef8f315] Response 200 - 6ms - GET /api/branches[39m
+2026-05-23 01:36:00:360 [35m[01dda5f9-0b4b-4d73-a81a-b941511e37ce] Response 200 - 159ms - GET /api/stocks[39m
+2026-05-23 01:36:00:360 [35m[06cf3a33-0e5b-4ccf-bb31-3cfaecd2b3cd] GET /api/stocks - IP: ::1[39m
+2026-05-23 01:36:00:360 [35m[06cf3a33-0e5b-4ccf-bb31-3cfaecd2b3cd] Response 200 - 8ms - GET /api/stocks[39m
+2026-05-23 01:37:36:3736 [35m[e9c42f12-d1dd-49b5-b7d7-4e560722d8bb] GET /api/stocks - IP: ::1[39m
+2026-05-23 01:37:36:3736 [35m[b30f3222-77a4-4475-b426-fe5eabed153b] GET /api/branches - IP: ::1[39m
+2026-05-23 01:37:36:3736 [35m[e9c42f12-d1dd-49b5-b7d7-4e560722d8bb] Response 200 - 8ms - GET /api/stocks[39m
+2026-05-23 01:37:36:3736 [35m[379e173e-e7a7-4201-89d0-968222823e0c] GET /api/stocks - IP: ::1[39m
+2026-05-23 01:37:36:3736 [35m[379e173e-e7a7-4201-89d0-968222823e0c] Response 200 - 6ms - GET /api/stocks[39m
+2026-05-23 01:37:36:3736 [35m[b30f3222-77a4-4475-b426-fe5eabed153b] Response 200 - 62ms - GET /api/branches[39m
+2026-05-23 01:37:36:3736 [35m[3d5a8b05-2775-4586-b43b-18e9e0483f32] GET /api/branches - IP: ::1[39m
+2026-05-23 01:37:36:3736 [35m[3d5a8b05-2775-4586-b43b-18e9e0483f32] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 01:37:41:3741 [35m[51e5aeed-8b2b-450d-b47f-51e973e441ab] GET /api/stocks - IP: ::1[39m
+2026-05-23 01:37:41:3741 [35m[1645fe1b-8b6e-47ec-af4c-a8ee708a12e7] GET /api/branches - IP: ::1[39m
+2026-05-23 01:37:41:3741 [35m[1645fe1b-8b6e-47ec-af4c-a8ee708a12e7] Response 200 - 6ms - GET /api/branches[39m
+2026-05-23 01:37:41:3741 [35m[51e5aeed-8b2b-450d-b47f-51e973e441ab] Response 200 - 11ms - GET /api/stocks[39m
+2026-05-23 01:37:41:3741 [35m[b3930d72-3098-47a9-a147-9de8aec5f267] GET /api/branches - IP: ::1[39m
+2026-05-23 01:37:41:3741 [35m[9c2c35c3-3dfe-44bf-9808-0cc0e32f20ab] GET /api/stocks - IP: ::1[39m
+2026-05-23 01:37:41:3741 [35m[b3930d72-3098-47a9-a147-9de8aec5f267] Response 200 - 11ms - GET /api/branches[39m
+2026-05-23 01:37:41:3741 [35m[9c2c35c3-3dfe-44bf-9808-0cc0e32f20ab] Response 200 - 13ms - GET /api/stocks[39m
+2026-05-23 01:37:43:3743 [35m[a72e8b9b-38ff-44b3-a1b7-23cd568bf800] GET /api/branches - IP: ::1[39m
+2026-05-23 01:37:43:3743 [35m[203f5c81-b527-4c09-93cb-4e9cfe1423dd] GET /api/products?status=active - IP: ::1[39m
+2026-05-23 01:37:43:3743 [35m[a72e8b9b-38ff-44b3-a1b7-23cd568bf800] Response 200 - 5ms - GET /api/branches[39m
+2026-05-23 01:37:43:3743 [35m[203f5c81-b527-4c09-93cb-4e9cfe1423dd] Response 200 - 24ms - GET /api/products?status=active[39m
+2026-05-23 01:46:48:4648 [35m[20724d48-211e-4bfd-bff4-e3d06c56f83c] GET /api/stocks - IP: ::1[39m
+2026-05-23 01:46:48:4648 [35m[a795f03d-5d20-42af-b027-7dcd242ae6fe] GET /api/branches - IP: ::1[39m
+2026-05-23 01:46:48:4648 [35m[a795f03d-5d20-42af-b027-7dcd242ae6fe] Response 200 - 91ms - GET /api/branches[39m
+2026-05-23 01:46:48:4648 [35m[91a4f956-086a-4a06-9212-f5ecd161d328] GET /api/branches - IP: ::1[39m
+2026-05-23 01:46:48:4648 [35m[20724d48-211e-4bfd-bff4-e3d06c56f83c] Response 200 - 99ms - GET /api/stocks[39m
+2026-05-23 01:46:48:4648 [35m[91a4f956-086a-4a06-9212-f5ecd161d328] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 01:46:48:4648 [35m[9adeb48e-fee7-4742-bd30-2586e064b39e] GET /api/stocks - IP: ::1[39m
+2026-05-23 01:46:48:4648 [35m[9adeb48e-fee7-4742-bd30-2586e064b39e] Response 200 - 8ms - GET /api/stocks[39m
+2026-05-23 01:56:23:5623 [35m[e70f2b36-d213-43b6-9dfb-377c1f674cfa] GET /api/stocks - IP: ::1[39m
+2026-05-23 01:56:23:5623 [35m[ff585d10-b425-4f3c-b056-b8a209f9a26c] GET /api/branches - IP: ::1[39m
+2026-05-23 01:56:23:5623 [35m[ff585d10-b425-4f3c-b056-b8a209f9a26c] Response 200 - 82ms - GET /api/branches[39m
+2026-05-23 01:56:23:5623 [35m[d5cf1227-1e82-4645-8e71-beb5b14ebf5e] GET /api/branches - IP: ::1[39m
+2026-05-23 01:56:23:5623 [35m[e70f2b36-d213-43b6-9dfb-377c1f674cfa] Response 200 - 90ms - GET /api/stocks[39m
+2026-05-23 01:56:23:5623 [35m[d5cf1227-1e82-4645-8e71-beb5b14ebf5e] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 01:56:23:5623 [35m[e9936e48-9ea6-4203-9a9f-d420300559ba] GET /api/stocks - IP: ::1[39m
+2026-05-23 01:56:23:5623 [35m[e9936e48-9ea6-4203-9a9f-d420300559ba] Response 200 - 6ms - GET /api/stocks[39m
+2026-05-23 02:30:46:3046 [35m[e2841694-1009-4810-a730-c94b16532463] GET /api/stocks - IP: ::1[39m
+2026-05-23 02:30:46:3046 [35m[0bbbdf8d-f009-4499-a00b-97817ceca97b] GET /api/branches - IP: ::1[39m
+2026-05-23 02:30:46:3046 [35m[0bbbdf8d-f009-4499-a00b-97817ceca97b] Response 200 - 218ms - GET /api/branches[39m
+2026-05-23 02:30:46:3046 [35m[41118e34-e061-4940-a260-d3de6a3fa408] GET /api/branches - IP: ::1[39m
+2026-05-23 02:30:46:3046 [35m[41118e34-e061-4940-a260-d3de6a3fa408] Response 200 - 7ms - GET /api/branches[39m
+2026-05-23 02:30:46:3046 [35m[e2841694-1009-4810-a730-c94b16532463] Response 200 - 233ms - GET /api/stocks[39m
+2026-05-23 02:30:46:3046 [35m[57246de9-9e0f-450d-8ee8-4a6e65d10bbb] GET /api/stocks - IP: ::1[39m
+2026-05-23 02:30:46:3046 [35m[57246de9-9e0f-450d-8ee8-4a6e65d10bbb] Response 200 - 9ms - GET /api/stocks[39m
+2026-05-23 02:31:18:3118 [35m[4b70b056-1eff-4ed5-954c-d5a483eac1ab] GET /api/stocks - IP: ::1[39m
+2026-05-23 02:31:18:3118 [35m[4014e08e-0541-4406-9f6f-d994d95131eb] GET /api/branches - IP: ::1[39m
+2026-05-23 02:31:18:3118 [35m[4b70b056-1eff-4ed5-954c-d5a483eac1ab] Response 200 - 27ms - GET /api/stocks[39m
+2026-05-23 02:31:18:3118 [35m[4014e08e-0541-4406-9f6f-d994d95131eb] Response 200 - 31ms - GET /api/branches[39m
+2026-05-23 02:31:18:3118 [35m[77b54ed0-8627-4092-923b-f88c84583bd0] GET /api/stocks - IP: ::1[39m
+2026-05-23 02:31:18:3118 [35m[464b84bd-3428-42cf-aaf7-aa327a29af4a] GET /api/branches - IP: ::1[39m
+2026-05-23 02:31:18:3118 [35m[464b84bd-3428-42cf-aaf7-aa327a29af4a] Response 200 - 15ms - GET /api/branches[39m
+2026-05-23 02:31:18:3118 [35m[77b54ed0-8627-4092-923b-f88c84583bd0] Response 200 - 34ms - GET /api/stocks[39m
+2026-05-23 02:31:22:3122 [35m[d8eae154-0c39-4a89-8389-44f93415c428] GET /api/stocks/history?limit=50 - IP: ::1[39m
+2026-05-23 02:31:22:3122 [35m[1be411a5-17f1-4208-b926-742415ca15db] GET /api/products?status=active - IP: ::1[39m
+2026-05-23 02:31:22:3122 [35m[432e4c67-1315-414a-a7b9-d28589ee7a1e] GET /api/branches - IP: ::1[39m
+2026-05-23 02:31:22:3122 [35m[d8eae154-0c39-4a89-8389-44f93415c428] Response 200 - 26ms - GET /api/stocks/history?limit=50[39m
+2026-05-23 02:31:22:3122 [35m[31d81663-7063-424d-84a5-902690e13a8c] GET /api/stocks/history?limit=50 - IP: ::1[39m
+2026-05-23 02:31:22:3122 [35m[1be411a5-17f1-4208-b926-742415ca15db] Response 200 - 25ms - GET /api/products?status=active[39m
+2026-05-23 02:31:22:3122 [35m[31d81663-7063-424d-84a5-902690e13a8c] Response 200 - 8ms - GET /api/stocks/history?limit=50[39m
+2026-05-23 02:31:22:3122 [35m[4aea8b1b-de2f-4765-a557-d7bd2bf1ba16] GET /api/products?status=active - IP: ::1[39m
+2026-05-23 02:31:22:3122 [35m[4aea8b1b-de2f-4765-a557-d7bd2bf1ba16] Response 200 - 9ms - GET /api/products?status=active[39m
+2026-05-23 02:31:22:3122 [35m[432e4c67-1315-414a-a7b9-d28589ee7a1e] Response 200 - 101ms - GET /api/branches[39m
+2026-05-23 02:31:22:3122 [35m[d1fac715-5451-440e-b6e5-9e249cb64564] GET /api/branches - IP: ::1[39m
+2026-05-23 02:31:22:3122 [35m[d1fac715-5451-440e-b6e5-9e249cb64564] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 02:32:07:327 [35m[caf14570-5fc4-4d00-907b-4c6fef654773] GET /api/stocks/history?limit=50 - IP: ::1[39m
+2026-05-23 02:32:07:327 [35m[caf14570-5fc4-4d00-907b-4c6fef654773] Response 200 - 18ms - GET /api/stocks/history?limit=50[39m
+2026-05-23 02:32:09:329 [35m[f00a2860-355f-483a-80c4-d2ec2f97e7ad] GET /api/stocks/history?limit=50 - IP: ::1[39m
+2026-05-23 02:32:09:329 [35m[f00a2860-355f-483a-80c4-d2ec2f97e7ad] Response 200 - 5ms - GET /api/stocks/history?limit=50[39m
+2026-05-23 02:32:10:3210 [35m[b772ba52-ddaf-49f7-912b-3a4106b87970] GET /api/stocks/history?limit=50 - IP: ::1[39m
+2026-05-23 02:32:10:3210 [35m[b772ba52-ddaf-49f7-912b-3a4106b87970] Response 200 - 5ms - GET /api/stocks/history?limit=50[39m
+2026-05-23 02:32:10:3210 [35m[2d6bdb52-7985-4240-a745-d86ad0ac9da7] GET /api/stocks/history?limit=50 - IP: ::1[39m
+2026-05-23 02:32:10:3210 [35m[2d6bdb52-7985-4240-a745-d86ad0ac9da7] Response 200 - 5ms - GET /api/stocks/history?limit=50[39m
+2026-05-23 02:33:11:3311 [35m[7f79f3ce-caa8-485e-abf4-b44b177033b3] GET /api/stocks/history?limit=50 - IP: ::1[39m
+2026-05-23 02:33:11:3311 [35m[7f79f3ce-caa8-485e-abf4-b44b177033b3] Response 200 - 4ms - GET /api/stocks/history?limit=50[39m
+2026-05-23 02:33:20:3320 [35m[4cd3d94f-004b-4d24-b8a0-c5e330471ffc] GET /api/stocks/history?productId=0c39fcde-2b45-43f0-848a-a940176a533a&branchId=48ad3a93-c772-45ca-aa9e-ddacc757f257&limit=50 - IP: ::1[39m
+2026-05-23 02:33:20:3320 [35m[4cd3d94f-004b-4d24-b8a0-c5e330471ffc] Response 200 - 169ms - GET /api/stocks/history?productId=0c39fcde-2b45-43f0-848a-a940176a533a&branchId=48ad3a93-c772-45ca-aa9e-ddacc757f257&limit=50[39m
+2026-05-23 02:33:26:3326 [35m[cbc7a10f-ced1-4ba2-87ed-3300c5af26cf] GET /api/stocks/history?productId=0c39fcde-2b45-43f0-848a-a940176a533a&branchId=48ad3a93-c772-45ca-aa9e-ddacc757f257&limit=50 - IP: ::1[39m
+2026-05-23 02:33:26:3326 [35m[cbc7a10f-ced1-4ba2-87ed-3300c5af26cf] Response 200 - 3ms - GET /api/stocks/history?productId=0c39fcde-2b45-43f0-848a-a940176a533a&branchId=48ad3a93-c772-45ca-aa9e-ddacc757f257&limit=50[39m
+2026-05-23 02:33:28:3328 [35m[0da14775-08b0-4e78-852d-203d1e511d1b] GET /api/stocks/history?limit=50 - IP: ::1[39m
+2026-05-23 02:33:28:3328 [35m[0da14775-08b0-4e78-852d-203d1e511d1b] Response 200 - 4ms - GET /api/stocks/history?limit=50[39m
+2026-05-23 02:33:32:3332 [35m[65725cb5-a149-4d0d-9a84-09058b199b06] GET /api/stocks/history?productId=0c39fcde-2b45-43f0-848a-a940176a533a&limit=50 - IP: ::1[39m
+2026-05-23 02:33:32:3332 [35m[65725cb5-a149-4d0d-9a84-09058b199b06] Response 200 - 6ms - GET /api/stocks/history?productId=0c39fcde-2b45-43f0-848a-a940176a533a&limit=50[39m
+2026-05-23 02:33:34:3334 [35m[a1346c72-2bb9-4675-9636-4b14195eabae] GET /api/stocks/history?productId=0c39fcde-2b45-43f0-848a-a940176a533a&limit=50 - IP: ::1[39m
+2026-05-23 02:33:34:3334 [35m[a1346c72-2bb9-4675-9636-4b14195eabae] Response 200 - 6ms - GET /api/stocks/history?productId=0c39fcde-2b45-43f0-848a-a940176a533a&limit=50[39m
+2026-05-23 02:33:40:3340 [35m[c12131d8-ca40-42f6-ba98-10fefe2e4667] GET /api/stocks - IP: ::1[39m
+2026-05-23 02:33:40:3340 [35m[8c4c1910-eafc-4085-904c-5c6c18d4b413] GET /api/branches - IP: ::1[39m
+2026-05-23 02:33:40:3340 [35m[8c4c1910-eafc-4085-904c-5c6c18d4b413] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 02:33:40:3340 [35m[c12131d8-ca40-42f6-ba98-10fefe2e4667] Response 200 - 9ms - GET /api/stocks[39m
+2026-05-23 02:33:40:3340 [35m[e4702cca-1295-48f4-a637-4b1309d6181c] GET /api/branches - IP: ::1[39m
+2026-05-23 02:33:40:3340 [35m[e31a75bd-ebf4-49bb-bc62-f332a13f04aa] GET /api/stocks - IP: ::1[39m
+2026-05-23 02:33:40:3340 [35m[e4702cca-1295-48f4-a637-4b1309d6181c] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 02:33:40:3340 [35m[e31a75bd-ebf4-49bb-bc62-f332a13f04aa] Response 200 - 7ms - GET /api/stocks[39m
+2026-05-23 02:33:41:3341 [35m[c61894f6-0429-4f5d-aeab-7f867fe8cb41] GET /api/stocks/history?limit=50 - IP: ::1[39m
+2026-05-23 02:33:41:3341 [35m[b4666d11-6ce2-4a4c-af0d-c2d1acebdf15] GET /api/products?status=active - IP: ::1[39m
+2026-05-23 02:33:41:3341 [35m[55c05413-de3a-42e5-b68b-8ddd1e959aea] GET /api/branches - IP: ::1[39m
+2026-05-23 02:33:41:3341 [35m[c61894f6-0429-4f5d-aeab-7f867fe8cb41] Response 200 - 6ms - GET /api/stocks/history?limit=50[39m
+2026-05-23 02:33:41:3341 [35m[55c05413-de3a-42e5-b68b-8ddd1e959aea] Response 200 - 5ms - GET /api/branches[39m
+2026-05-23 02:33:41:3341 [35m[50c597fd-76c0-4d64-83b5-bbd2054b3165] GET /api/stocks/history?limit=50 - IP: ::1[39m
+2026-05-23 02:33:41:3341 [35m[69abfc47-9a43-45ed-9bcd-e7f249bbffa9] GET /api/branches - IP: ::1[39m
+2026-05-23 02:33:41:3341 [35m[50c597fd-76c0-4d64-83b5-bbd2054b3165] Response 200 - 4ms - GET /api/stocks/history?limit=50[39m
+2026-05-23 02:33:41:3341 [35m[69abfc47-9a43-45ed-9bcd-e7f249bbffa9] Response 200 - 5ms - GET /api/branches[39m
+2026-05-23 02:33:41:3341 [35m[b4666d11-6ce2-4a4c-af0d-c2d1acebdf15] Response 200 - 19ms - GET /api/products?status=active[39m
+2026-05-23 02:33:41:3341 [35m[bfae7671-700f-4709-9a9e-8b5b8d9d3dae] GET /api/products?status=active - IP: ::1[39m
+2026-05-23 02:33:41:3341 [35m[bfae7671-700f-4709-9a9e-8b5b8d9d3dae] Response 200 - 6ms - GET /api/products?status=active[39m
+2026-05-23 02:33:42:3342 [35m[1d7e8e59-26c5-44e1-aa4f-3dc45a4425fd] GET /api/stocks - IP: ::1[39m
+2026-05-23 02:33:42:3342 [35m[dbb0dd8b-6c7e-474f-80cf-b4f3048a12b0] GET /api/branches - IP: ::1[39m
+2026-05-23 02:33:42:3342 [35m[1d7e8e59-26c5-44e1-aa4f-3dc45a4425fd] Response 200 - 7ms - GET /api/stocks[39m
+2026-05-23 02:33:42:3342 [35m[dbb0dd8b-6c7e-474f-80cf-b4f3048a12b0] Response 200 - 5ms - GET /api/branches[39m
+2026-05-23 02:33:42:3342 [35m[58051abd-11f0-425c-8b8d-35603948db09] GET /api/stocks - IP: ::1[39m
+2026-05-23 02:33:42:3342 [35m[73c03a2b-4656-4f41-846b-0d65f2b86493] GET /api/branches - IP: ::1[39m
+2026-05-23 02:33:42:3342 [35m[58051abd-11f0-425c-8b8d-35603948db09] Response 200 - 5ms - GET /api/stocks[39m
+2026-05-23 02:33:42:3342 [35m[73c03a2b-4656-4f41-846b-0d65f2b86493] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 02:33:43:3343 [35m[6dae8613-786b-4566-9bd1-41e43f592767] GET /api/stocks/history?limit=50 - IP: ::1[39m
+2026-05-23 02:33:43:3343 [35m[b7293abb-719e-49c5-b54c-8f72d12a535c] GET /api/products?status=active - IP: ::1[39m
+2026-05-23 02:33:43:3343 [35m[ed9bf3e2-e913-4ba8-b3b8-7c4f92315d23] GET /api/branches - IP: ::1[39m
+2026-05-23 02:33:43:3343 [35m[6dae8613-786b-4566-9bd1-41e43f592767] Response 200 - 13ms - GET /api/stocks/history?limit=50[39m
+2026-05-23 02:33:43:3343 [35m[b7293abb-719e-49c5-b54c-8f72d12a535c] Response 200 - 12ms - GET /api/products?status=active[39m
+2026-05-23 02:33:43:3343 [35m[ed9bf3e2-e913-4ba8-b3b8-7c4f92315d23] Response 200 - 8ms - GET /api/branches[39m
+2026-05-23 02:33:43:3343 [35m[0f449567-6a80-47ee-a52e-11ddc4bc0580] GET /api/stocks/history?limit=50 - IP: ::1[39m
+2026-05-23 02:33:43:3343 [35m[225a32f6-f051-4dbe-a2ef-0b6fdcb15932] GET /api/products?status=active - IP: ::1[39m
+2026-05-23 02:33:43:3343 [35m[ce1dbdaf-cba4-4a25-8b49-6261cc902b96] GET /api/branches - IP: ::1[39m
+2026-05-23 02:33:43:3343 [35m[0f449567-6a80-47ee-a52e-11ddc4bc0580] Response 200 - 7ms - GET /api/stocks/history?limit=50[39m
+2026-05-23 02:33:43:3343 [35m[ce1dbdaf-cba4-4a25-8b49-6261cc902b96] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 02:33:43:3343 [35m[225a32f6-f051-4dbe-a2ef-0b6fdcb15932] Response 200 - 8ms - GET /api/products?status=active[39m
+2026-05-23 02:33:44:3344 [35m[50a37e94-6236-4068-9d5d-d4cf1a48264d] GET /api/stocks - IP: ::1[39m
+2026-05-23 02:33:44:3344 [35m[a1407c17-673a-4992-8059-f9051ae0e93e] GET /api/branches - IP: ::1[39m
+2026-05-23 02:33:44:3344 [35m[a1407c17-673a-4992-8059-f9051ae0e93e] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 02:33:44:3344 [35m[50a37e94-6236-4068-9d5d-d4cf1a48264d] Response 200 - 8ms - GET /api/stocks[39m
+2026-05-23 02:33:44:3344 [35m[e14e4dc9-6fd5-4a4c-8692-34cb598172d8] GET /api/branches - IP: ::1[39m
+2026-05-23 02:33:44:3344 [35m[c2196084-e14b-4abc-9571-e96aff0a86c7] GET /api/stocks - IP: ::1[39m
+2026-05-23 02:33:44:3344 [35m[e14e4dc9-6fd5-4a4c-8692-34cb598172d8] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 02:33:44:3344 [35m[c2196084-e14b-4abc-9571-e96aff0a86c7] Response 200 - 5ms - GET /api/stocks[39m
+2026-05-23 02:33:53:3353 [35m[559a3f25-83fd-424a-b58d-98dd105f91da] GET /api/branches - IP: ::1[39m
+2026-05-23 02:33:53:3353 [35m[665ad88d-5a39-42d6-90bb-47506bbe8892] GET /api/users - IP: ::1[39m
+2026-05-23 02:33:53:3353 [35m[559a3f25-83fd-424a-b58d-98dd105f91da] Response 200 - 5ms - GET /api/branches[39m
+2026-05-23 02:33:53:3353 [35m[3e957b7d-0709-4b48-966e-91d3818dddaf] GET /api/branches - IP: ::1[39m
+2026-05-23 02:33:53:3353 [35m[665ad88d-5a39-42d6-90bb-47506bbe8892] Response 200 - 10ms - GET /api/users[39m
+2026-05-23 02:33:53:3353 [35m[3e957b7d-0709-4b48-966e-91d3818dddaf] Response 200 - 5ms - GET /api/branches[39m
+2026-05-23 02:33:53:3353 [35m[66fbd8fd-c2da-49a3-9eec-413407aad3ea] GET /api/users - IP: ::1[39m
+2026-05-23 02:33:53:3353 [35m[a6680127-6a03-4239-95b0-f36ff8d39d89] GET /api/branches - IP: ::1[39m
+2026-05-23 02:33:53:3353 [35m[66fbd8fd-c2da-49a3-9eec-413407aad3ea] Response 200 - 4ms - GET /api/users[39m
+2026-05-23 02:33:53:3353 [35m[a6680127-6a03-4239-95b0-f36ff8d39d89] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 02:33:53:3353 [35m[3461fc3e-f5c1-41d8-9088-f1450d585a27] GET /api/branches - IP: ::1[39m
+2026-05-23 02:33:53:3353 [35m[3461fc3e-f5c1-41d8-9088-f1450d585a27] Response 200 - 3ms - GET /api/branches[39m
+2026-05-23 02:33:53:3353 [35m[ee7b8b47-87a6-403c-81f3-c190adea5a4b] GET /api/categories - IP: ::1[39m
+2026-05-23 02:33:53:3353 [35m[ee7b8b47-87a6-403c-81f3-c190adea5a4b] Response 200 - 5ms - GET /api/categories[39m
+2026-05-23 02:33:53:3353 [35m[6842fc66-5bad-4f95-91d4-38d9c72e61c7] GET /api/categories - IP: ::1[39m
+2026-05-23 02:33:53:3353 [35m[6842fc66-5bad-4f95-91d4-38d9c72e61c7] Response 200 - 3ms - GET /api/categories[39m
+2026-05-23 02:33:54:3354 [35m[9781e306-7e09-4969-9570-8d1339f9491d] GET /api/categories - IP: ::1[39m
+2026-05-23 02:33:54:3354 [35m[33974108-4450-4ec3-bb9f-1ed16247f14f] GET /api/products - IP: ::1[39m
+2026-05-23 02:33:54:3354 [35m[9781e306-7e09-4969-9570-8d1339f9491d] Response 200 - 4ms - GET /api/categories[39m
+2026-05-23 02:33:54:3354 [35m[511bd303-d52b-4c3e-9cf4-1beda923a24b] GET /api/categories - IP: ::1[39m
+2026-05-23 02:33:54:3354 [35m[33974108-4450-4ec3-bb9f-1ed16247f14f] Response 200 - 7ms - GET /api/products[39m
+2026-05-23 02:33:54:3354 [35m[511bd303-d52b-4c3e-9cf4-1beda923a24b] Response 200 - 4ms - GET /api/categories[39m
+2026-05-23 02:33:54:3354 [35m[a0acc15a-b6ed-486a-8702-25abb468c8d7] GET /api/products - IP: ::1[39m
+2026-05-23 02:33:54:3354 [35m[1870a64a-3d95-415d-b600-56959169e742] GET /api/categories - IP: ::1[39m
+2026-05-23 02:33:54:3354 [35m[a0acc15a-b6ed-486a-8702-25abb468c8d7] Response 200 - 6ms - GET /api/products[39m
+2026-05-23 02:33:54:3354 [35m[1870a64a-3d95-415d-b600-56959169e742] Response 200 - 5ms - GET /api/categories[39m
+2026-05-23 02:33:54:3354 [35m[849e0b0f-79fb-4f12-b0a4-d58640167aa5] GET /api/categories - IP: ::1[39m
+2026-05-23 02:33:54:3354 [35m[849e0b0f-79fb-4f12-b0a4-d58640167aa5] Response 200 - 3ms - GET /api/categories[39m
+2026-05-23 02:33:54:3354 [35m[37fc2d8b-76f0-4b81-b48a-7b203ad481a2] GET /uploads/products/49d7322a-2f7e-4203-bfb8-2bf6761e2ee8.jpeg - IP: ::1[39m
+2026-05-23 02:33:56:3356 [35m[4556dfba-1099-4318-947c-f4057cc960a9] GET /api/categories - IP: ::1[39m
+2026-05-23 02:33:56:3356 [35m[4556dfba-1099-4318-947c-f4057cc960a9] Response 200 - 4ms - GET /api/categories[39m
+2026-05-23 02:33:56:3356 [35m[2b83ce1e-fd11-4adb-9fa6-b3c959309980] GET /api/categories - IP: ::1[39m
+2026-05-23 02:33:56:3356 [35m[2b83ce1e-fd11-4adb-9fa6-b3c959309980] Response 200 - 3ms - GET /api/categories[39m
+2026-05-23 02:33:56:3356 [35m[8dc48b53-e60a-42e8-ba30-6d049c6ef333] GET /api/branches - IP: ::1[39m
+2026-05-23 02:33:56:3356 [35m[aeb4ecd0-f0fd-4ce4-ad8d-d31c0fba7e24] GET /api/users - IP: ::1[39m
+2026-05-23 02:33:56:3356 [35m[8dc48b53-e60a-42e8-ba30-6d049c6ef333] Response 200 - 14ms - GET /api/branches[39m
+2026-05-23 02:33:56:3356 [35m[aeb4ecd0-f0fd-4ce4-ad8d-d31c0fba7e24] Response 200 - 15ms - GET /api/users[39m
+2026-05-23 02:33:56:3356 [35m[41a27c9d-9395-49bb-8cb2-8e5ca867a1fe] GET /api/branches - IP: ::1[39m
+2026-05-23 02:33:56:3356 [35m[b1f10f78-499a-4cb9-bb46-721e752ff7bc] GET /api/users - IP: ::1[39m
+2026-05-23 02:33:56:3356 [35m[41a27c9d-9395-49bb-8cb2-8e5ca867a1fe] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 02:33:56:3356 [35m[b1f10f78-499a-4cb9-bb46-721e752ff7bc] Response 200 - 3ms - GET /api/users[39m
+2026-05-23 02:33:56:3356 [35m[f49ed558-a9c9-4959-b9d7-f9a6fcb85d5c] GET /api/branches - IP: ::1[39m
+2026-05-23 02:33:56:3356 [35m[f49ed558-a9c9-4959-b9d7-f9a6fcb85d5c] Response 200 - 3ms - GET /api/branches[39m
+2026-05-23 02:33:56:3356 [35m[1344dd1a-af79-4388-bfbf-ae9db4fa22c0] GET /api/branches - IP: ::1[39m
+2026-05-23 02:33:56:3356 [35m[1344dd1a-af79-4388-bfbf-ae9db4fa22c0] Response 200 - 3ms - GET /api/branches[39m
+2026-05-23 02:33:57:3357 [35m[fbcc0a2e-c9df-4bf6-ab95-ce4b6dd40c8a] GET /api/branches - IP: ::1[39m
+2026-05-23 02:33:57:3357 [35m[fbcc0a2e-c9df-4bf6-ab95-ce4b6dd40c8a] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 02:33:57:3357 [35m[75cd42c7-c011-41eb-825d-b4c54143c1da] GET /api/branches - IP: ::1[39m
+2026-05-23 02:33:57:3357 [35m[75cd42c7-c011-41eb-825d-b4c54143c1da] Response 200 - 3ms - GET /api/branches[39m
+2026-05-23 02:33:58:3358 [35m[4825906a-bc1c-4f2a-9140-62c89308587b] GET /api/branches - IP: ::1[39m
+2026-05-23 02:33:58:3358 [35m[4825906a-bc1c-4f2a-9140-62c89308587b] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 02:33:58:3358 [35m[18a3749e-2603-4624-8dc8-8a9ee93bb0bb] GET /api/branches - IP: ::1[39m
+2026-05-23 02:33:58:3358 [35m[18a3749e-2603-4624-8dc8-8a9ee93bb0bb] Response 200 - 3ms - GET /api/branches[39m
+2026-05-23 02:36:43:3643 [35m[537aa144-788c-4a1e-80f6-10b71f7b45c0] GET /api/branches - IP: ::1[39m
+2026-05-23 02:36:43:3643 [35m[537aa144-788c-4a1e-80f6-10b71f7b45c0] Response 200 - 167ms - GET /api/branches[39m
+2026-05-23 02:36:43:3643 [35m[aaf88f4a-dcf5-496b-8184-7cfa8211ab7e] GET /api/branches - IP: ::1[39m
+2026-05-23 02:36:43:3643 [35m[aaf88f4a-dcf5-496b-8184-7cfa8211ab7e] Response 200 - 3ms - GET /api/branches[39m
+2026-05-23 02:40:57:4057 [35m[d97ef265-83cf-4bce-8e21-a7d8f4d44a92] GET /api/branches - IP: ::1[39m
+2026-05-23 02:40:57:4057 [35m[5215f61e-6d5d-4e91-a370-e9e103110986] GET /api/users - IP: ::1[39m
+2026-05-23 02:40:57:4057 [35m[d97ef265-83cf-4bce-8e21-a7d8f4d44a92] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 02:40:57:4057 [35m[fbddb04b-957f-4662-98ad-4a8138505477] GET /api/branches - IP: ::1[39m
+2026-05-23 02:40:57:4057 [35m[fbddb04b-957f-4662-98ad-4a8138505477] Response 200 - 5ms - GET /api/branches[39m
+2026-05-23 02:40:57:4057 [35m[6611469f-a246-45b0-8a66-22905669a9cc] GET /api/branches - IP: ::1[39m
+2026-05-23 02:40:57:4057 [35m[6611469f-a246-45b0-8a66-22905669a9cc] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 02:40:57:4057 [35m[0c23634b-aa1f-4f58-af5c-a462f8f1935c] GET /api/branches - IP: ::1[39m
+2026-05-23 02:40:57:4057 [35m[0c23634b-aa1f-4f58-af5c-a462f8f1935c] Response 200 - 6ms - GET /api/branches[39m
+2026-05-23 02:40:57:4057 [35m[5215f61e-6d5d-4e91-a370-e9e103110986] Response 200 - 162ms - GET /api/users[39m
+2026-05-23 02:40:57:4057 [35m[23185815-1516-4930-929a-ee6c27055f9b] GET /api/users - IP: ::1[39m
+2026-05-23 02:40:57:4057 [35m[23185815-1516-4930-929a-ee6c27055f9b] Response 200 - 4ms - GET /api/users[39m
+2026-05-23 02:44:09:449 [35m[0805e756-c71b-493f-8a1a-1f27e8654b5f] GET /users - IP: ::1[39m
+2026-05-23 02:44:09:449 [33m[0805e756-c71b-493f-8a1a-1f27e8654b5f] 404 Not Found - GET /users[39m
+2026-05-23 02:44:09:449 [35m[0805e756-c71b-493f-8a1a-1f27e8654b5f] Response 404 - 14ms - GET /users[39m
+2026-05-23 02:44:24:4424 [35m[2828887d-ec22-431b-a48e-8851f0b87dcc] GET /api/branches - IP: ::1[39m
+2026-05-23 02:44:24:4424 [35m[47ab8034-3da9-4ac3-9a27-9fc3ba71cc5e] GET /api/users - IP: ::1[39m
+2026-05-23 02:44:24:4424 [35m[2828887d-ec22-431b-a48e-8851f0b87dcc] Response 200 - 8ms - GET /api/branches[39m
+2026-05-23 02:44:24:4424 [35m[801b2139-671a-48ce-b650-f1d5255ca081] GET /api/branches - IP: ::1[39m
+2026-05-23 02:44:24:4424 [35m[801b2139-671a-48ce-b650-f1d5255ca081] Response 200 - 7ms - GET /api/branches[39m
+2026-05-23 02:44:24:4424 [35m[cc7a02f0-c0b3-4736-8dfd-facd1fbc238d] GET /api/branches - IP: ::1[39m
+2026-05-23 02:44:24:4424 [35m[cc7a02f0-c0b3-4736-8dfd-facd1fbc238d] Response 200 - 6ms - GET /api/branches[39m
+2026-05-23 02:44:24:4424 [35m[8a18fc24-d6a2-490c-a36d-9a61e2e0d12a] GET /api/branches - IP: ::1[39m
+2026-05-23 02:44:24:4424 [35m[8a18fc24-d6a2-490c-a36d-9a61e2e0d12a] Response 200 - 7ms - GET /api/branches[39m
+2026-05-23 02:44:24:4424 [35m[47ab8034-3da9-4ac3-9a27-9fc3ba71cc5e] Response 200 - 120ms - GET /api/users[39m
+2026-05-23 02:44:24:4424 [35m[bb44d635-67b0-4388-9587-4bdc3198aeae] GET /api/users - IP: ::1[39m
+2026-05-23 02:44:24:4424 [35m[bb44d635-67b0-4388-9587-4bdc3198aeae] Response 200 - 5ms - GET /api/users[39m
+2026-05-23 02:45:09:459 [35m[43ad2654-dd2a-4961-b17d-a133dea636ee] GET /api/categories - IP: ::1[39m
+2026-05-23 02:45:09:459 [35m[43ad2654-dd2a-4961-b17d-a133dea636ee] Response 200 - 11ms - GET /api/categories[39m
+2026-05-23 02:45:09:459 [35m[8fa18409-f69d-416f-b873-f655f592c6af] GET /api/categories - IP: ::1[39m
+2026-05-23 02:45:09:459 [35m[8fa18409-f69d-416f-b873-f655f592c6af] Response 200 - 5ms - GET /api/categories[39m
+2026-05-23 02:46:43:4643 [35m[656f6dc2-8f29-4daa-8a62-c92813da23c5] GET /api/categories - IP: ::1[39m
+2026-05-23 02:46:43:4643 [35m[656f6dc2-8f29-4daa-8a62-c92813da23c5] Response 200 - 4ms - GET /api/categories[39m
+2026-05-23 02:46:43:4643 [35m[23e7a648-2631-4aaa-8a27-7b4b4fae9eaf] GET /api/categories - IP: ::1[39m
+2026-05-23 02:46:43:4643 [35m[23e7a648-2631-4aaa-8a27-7b4b4fae9eaf] Response 200 - 3ms - GET /api/categories[39m
+2026-05-23 02:47:47:4747 [35m[a9f4e893-331c-4cda-aadf-cce46e8ac2be] GET /api/categories - IP: ::1[39m
+2026-05-23 02:47:47:4747 [35m[f9396420-8e59-48ea-95e7-7d5ba9463c6a] GET /api/products - IP: ::1[39m
+2026-05-23 02:47:47:4747 [35m[a9f4e893-331c-4cda-aadf-cce46e8ac2be] Response 200 - 5ms - GET /api/categories[39m
+2026-05-23 02:47:47:4747 [35m[0160fc4b-823d-4745-90d3-d9161381b72d] GET /api/categories - IP: ::1[39m
+2026-05-23 02:47:47:4747 [35m[f9396420-8e59-48ea-95e7-7d5ba9463c6a] Response 200 - 13ms - GET /api/products[39m
+2026-05-23 02:47:47:4747 [35m[ca5c8bad-188f-4971-8e9a-dfb40670656a] GET /api/products - IP: ::1[39m
+2026-05-23 02:47:47:4747 [35m[ca5c8bad-188f-4971-8e9a-dfb40670656a] Response 200 - 7ms - GET /api/products[39m
+2026-05-23 02:47:47:4747 [35m[8d1b90c9-37a8-4eb7-b40a-453a70a6994b] GET /uploads/products/49d7322a-2f7e-4203-bfb8-2bf6761e2ee8.jpeg - IP: ::1[39m
+2026-05-23 02:47:47:4747 [35m[0160fc4b-823d-4745-90d3-d9161381b72d] Response 200 - 85ms - GET /api/categories[39m
+2026-05-23 02:47:47:4747 [35m[21db1453-a5de-4eda-82bf-d46fe1cfa763] GET /api/categories - IP: ::1[39m
+2026-05-23 02:47:47:4747 [35m[21db1453-a5de-4eda-82bf-d46fe1cfa763] Response 200 - 4ms - GET /api/categories[39m
+2026-05-23 02:47:47:4747 [35m[b5ae71bb-81b3-4e3e-a3c8-99505a9a1358] GET /api/categories - IP: ::1[39m
+2026-05-23 02:47:47:4747 [35m[b5ae71bb-81b3-4e3e-a3c8-99505a9a1358] Response 200 - 4ms - GET /api/categories[39m
+2026-05-23 02:47:57:4757 [35m[f78990f5-6275-497b-8282-458585a91c2b] GET /api/stocks - IP: ::1[39m
+2026-05-23 02:47:57:4757 [35m[cfb15409-4c76-43d0-95a3-4182adeb1a67] GET /api/branches - IP: ::1[39m
+2026-05-23 02:47:57:4757 [35m[cfb15409-4c76-43d0-95a3-4182adeb1a67] Response 200 - 15ms - GET /api/branches[39m
+2026-05-23 02:47:57:4757 [35m[3a11b5b1-5287-47db-b587-7a22d6508133] GET /api/branches - IP: ::1[39m
+2026-05-23 02:47:57:4757 [35m[3a11b5b1-5287-47db-b587-7a22d6508133] Response 200 - 6ms - GET /api/branches[39m
+2026-05-23 02:47:57:4757 [35m[f78990f5-6275-497b-8282-458585a91c2b] Response 200 - 190ms - GET /api/stocks[39m
+2026-05-23 02:47:57:4757 [35m[5287da8e-ebfe-4ebd-a211-ea415c149074] GET /api/stocks - IP: ::1[39m
+2026-05-23 02:47:57:4757 [35m[5287da8e-ebfe-4ebd-a211-ea415c149074] Response 200 - 6ms - GET /api/stocks[39m
+2026-05-23 02:48:33:4833 [35m[3d732fbf-12ce-40b7-bff2-5f23abbbb8e8] GET /api/stocks - IP: ::1[39m
+2026-05-23 02:48:33:4833 [35m[e3d79716-812c-4e57-ad82-aee3cf6b07df] GET /api/branches - IP: ::1[39m
+2026-05-23 02:48:33:4833 [35m[3d732fbf-12ce-40b7-bff2-5f23abbbb8e8] Response 200 - 20ms - GET /api/stocks[39m
+2026-05-23 02:48:33:4833 [35m[e3d79716-812c-4e57-ad82-aee3cf6b07df] Response 200 - 8ms - GET /api/branches[39m
+2026-05-23 02:48:33:4833 [35m[94a25e2e-d162-4232-a9ab-a3b979139cc0] GET /api/stocks - IP: ::1[39m
+2026-05-23 02:48:33:4833 [35m[8269da47-0f18-49da-88ab-91dc4e097bde] GET /api/branches - IP: ::1[39m
+2026-05-23 02:48:33:4833 [35m[8269da47-0f18-49da-88ab-91dc4e097bde] Response 200 - 12ms - GET /api/branches[39m
+2026-05-23 02:48:33:4833 [35m[94a25e2e-d162-4232-a9ab-a3b979139cc0] Response 200 - 28ms - GET /api/stocks[39m
+2026-05-23 02:48:57:4857 [35m[cc32f801-bf39-47a7-8b71-4dfafae5f24c] GET /api/stocks/history?limit=50 - IP: ::1[39m
+2026-05-23 02:48:57:4857 [35m[e95d35f3-a458-49c6-bed8-bd6ea5f45083] GET /api/products?status=active - IP: ::1[39m
+2026-05-23 02:48:57:4857 [35m[31ca483a-7d58-4319-aef3-154bd9a247c1] GET /api/branches - IP: ::1[39m
+2026-05-23 02:48:57:4857 [35m[31ca483a-7d58-4319-aef3-154bd9a247c1] Response 200 - 8ms - GET /api/branches[39m
+2026-05-23 02:48:57:4857 [35m[cc32f801-bf39-47a7-8b71-4dfafae5f24c] Response 200 - 18ms - GET /api/stocks/history?limit=50[39m
+2026-05-23 02:48:57:4857 [35m[28f6be1b-7a29-4e59-a4b8-dc4621159383] GET /api/branches - IP: ::1[39m
+2026-05-23 02:48:57:4857 [35m[e95d35f3-a458-49c6-bed8-bd6ea5f45083] Response 200 - 19ms - GET /api/products?status=active[39m
+2026-05-23 02:48:57:4857 [35m[ba952c89-4df8-4e91-a643-cfa1738ee42e] GET /api/stocks/history?limit=50 - IP: ::1[39m
+2026-05-23 02:48:57:4857 [35m[28f6be1b-7a29-4e59-a4b8-dc4621159383] Response 200 - 8ms - GET /api/branches[39m
+2026-05-23 02:48:57:4857 [35m[f716614b-739c-496e-bdc0-43285821c200] GET /api/products?status=active - IP: ::1[39m
+2026-05-23 02:48:57:4857 [35m[ba952c89-4df8-4e91-a643-cfa1738ee42e] Response 200 - 9ms - GET /api/stocks/history?limit=50[39m
+2026-05-23 02:48:57:4857 [35m[f716614b-739c-496e-bdc0-43285821c200] Response 200 - 6ms - GET /api/products?status=active[39m
+2026-05-23 02:48:58:4858 [35m[d672d315-26d0-44cd-8497-cde9a08badd1] GET /api/branches - IP: ::1[39m
+2026-05-23 02:48:58:4858 [35m[cfd078ae-58ee-41d7-a854-ed2f34d074a6] GET /api/stocks - IP: ::1[39m
+2026-05-23 02:48:58:4858 [35m[d672d315-26d0-44cd-8497-cde9a08badd1] Response 200 - 13ms - GET /api/branches[39m
+2026-05-23 02:48:58:4858 [35m[cfd078ae-58ee-41d7-a854-ed2f34d074a6] Response 200 - 10ms - GET /api/stocks[39m
+2026-05-23 02:48:58:4858 [35m[f471a3aa-a38c-4bc2-bb65-d2ecd49a880e] GET /api/branches - IP: ::1[39m
+2026-05-23 02:48:58:4858 [35m[62a4091e-49f9-4ac7-b20b-c3562bad50bd] GET /api/stocks - IP: ::1[39m
+2026-05-23 02:48:58:4858 [35m[f471a3aa-a38c-4bc2-bb65-d2ecd49a880e] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 02:48:58:4858 [35m[62a4091e-49f9-4ac7-b20b-c3562bad50bd] Response 200 - 7ms - GET /api/stocks[39m
+2026-05-23 02:48:59:4859 [35m[47243d50-55b9-449c-8bed-84d996dd138f] GET /api/stocks/history?limit=50 - IP: ::1[39m
+2026-05-23 02:48:59:4859 [35m[467fcfdd-c411-434e-bc24-2aad2bfd9db9] GET /api/products?status=active - IP: ::1[39m
+2026-05-23 02:48:59:4859 [35m[359bc39b-80fc-422b-b369-293eea7b5a4f] GET /api/branches - IP: ::1[39m
+2026-05-23 02:48:59:4859 [35m[47243d50-55b9-449c-8bed-84d996dd138f] Response 200 - 7ms - GET /api/stocks/history?limit=50[39m
+2026-05-23 02:48:59:4859 [35m[359bc39b-80fc-422b-b369-293eea7b5a4f] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 02:48:59:4859 [35m[467fcfdd-c411-434e-bc24-2aad2bfd9db9] Response 200 - 8ms - GET /api/products?status=active[39m
+2026-05-23 02:48:59:4859 [35m[2002764d-ee4f-49e7-9e45-5af3ad4fbb13] GET /api/stocks/history?limit=50 - IP: ::1[39m
+2026-05-23 02:48:59:4859 [35m[a604a4d3-bc6f-46a6-a7c5-da7c323cb987] GET /api/branches - IP: ::1[39m
+2026-05-23 02:48:59:4859 [35m[14541af4-3dff-48c8-ad13-a09ec4140559] GET /api/products?status=active - IP: ::1[39m
+2026-05-23 02:48:59:4859 [35m[2002764d-ee4f-49e7-9e45-5af3ad4fbb13] Response 200 - 9ms - GET /api/stocks/history?limit=50[39m
+2026-05-23 02:48:59:4859 [35m[a604a4d3-bc6f-46a6-a7c5-da7c323cb987] Response 200 - 10ms - GET /api/branches[39m
+2026-05-23 02:48:59:4859 [35m[14541af4-3dff-48c8-ad13-a09ec4140559] Response 200 - 8ms - GET /api/products?status=active[39m
+2026-05-23 02:48:59:4859 [35m[dc7af97f-cb13-4e2f-b66b-cd2fd3b7cf17] GET /api/stocks - IP: ::1[39m
+2026-05-23 02:48:59:4859 [35m[b1304265-4557-47ad-ad5b-0b4ec0e20115] GET /api/branches - IP: ::1[39m
+2026-05-23 02:48:59:4859 [35m[b1304265-4557-47ad-ad5b-0b4ec0e20115] Response 200 - 3ms - GET /api/branches[39m
+2026-05-23 02:48:59:4859 [35m[dc7af97f-cb13-4e2f-b66b-cd2fd3b7cf17] Response 200 - 7ms - GET /api/stocks[39m
+2026-05-23 02:48:59:4859 [35m[3f3b4061-b128-44ad-828a-317665862e24] GET /api/branches - IP: ::1[39m
+2026-05-23 02:48:59:4859 [35m[aea7a6f9-ca99-4817-9a81-ca9b80988c00] GET /api/stocks - IP: ::1[39m
+2026-05-23 02:48:59:4859 [35m[3f3b4061-b128-44ad-828a-317665862e24] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 02:48:59:4859 [35m[aea7a6f9-ca99-4817-9a81-ca9b80988c00] Response 200 - 6ms - GET /api/stocks[39m
+2026-05-23 02:49:02:492 [35m[4b7a8375-b109-4848-a476-f945dc36db82] GET /api/branches - IP: ::1[39m
+2026-05-23 02:49:02:492 [35m[8858fdd1-0531-42ac-ad75-8a631266e154] GET /api/users - IP: ::1[39m
+2026-05-23 02:49:02:492 [35m[4b7a8375-b109-4848-a476-f945dc36db82] Response 200 - 5ms - GET /api/branches[39m
+2026-05-23 02:49:02:492 [35m[aa47c79a-ab3d-4a04-a577-d855416bdca1] GET /api/branches - IP: ::1[39m
+2026-05-23 02:49:02:492 [35m[8858fdd1-0531-42ac-ad75-8a631266e154] Response 200 - 9ms - GET /api/users[39m
+2026-05-23 02:49:02:492 [35m[aa47c79a-ab3d-4a04-a577-d855416bdca1] Response 200 - 3ms - GET /api/branches[39m
+2026-05-23 02:49:02:492 [35m[067b08b6-11db-479f-91e7-800069d800f1] GET /api/users - IP: ::1[39m
+2026-05-23 02:49:02:492 [35m[b3fa1c52-3ad9-4fbd-9be6-b1b86378b0ba] GET /api/branches - IP: ::1[39m
+2026-05-23 02:49:02:492 [35m[067b08b6-11db-479f-91e7-800069d800f1] Response 200 - 5ms - GET /api/users[39m
+2026-05-23 02:49:02:492 [35m[b3fa1c52-3ad9-4fbd-9be6-b1b86378b0ba] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 02:49:02:492 [35m[44cd9ff8-2fa7-4830-b7e6-9c751e9e38ee] GET /api/branches - IP: ::1[39m
+2026-05-23 02:49:02:492 [35m[44cd9ff8-2fa7-4830-b7e6-9c751e9e38ee] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 02:49:03:493 [35m[79649887-4809-4f25-b644-2dd3439a568f] GET /api/branches - IP: ::1[39m
+2026-05-23 02:49:03:493 [35m[79649887-4809-4f25-b644-2dd3439a568f] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 02:49:03:493 [35m[e0514e20-64a0-4bda-be74-5753aa815694] GET /api/branches - IP: ::1[39m
+2026-05-23 02:49:03:493 [35m[e0514e20-64a0-4bda-be74-5753aa815694] Response 200 - 3ms - GET /api/branches[39m
+2026-05-23 02:49:06:496 [35m[418bf3eb-dc0b-43a5-9ceb-a9d783b80683] GET /api/branches - IP: ::1[39m
+2026-05-23 02:49:06:496 [35m[418bf3eb-dc0b-43a5-9ceb-a9d783b80683] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 02:49:06:496 [35m[e98ba837-2837-4155-a625-796c4c3c94d6] GET /api/branches - IP: ::1[39m
+2026-05-23 02:49:06:496 [35m[e98ba837-2837-4155-a625-796c4c3c94d6] Response 200 - 3ms - GET /api/branches[39m
+2026-05-23 02:49:07:497 [35m[fd52737a-91ca-4fbc-b392-89c327176494] GET /api/branches - IP: ::1[39m
+2026-05-23 02:49:07:497 [35m[0b37d610-3a99-43ac-8385-f4a1acb7b4a5] GET /api/users - IP: ::1[39m
+2026-05-23 02:49:07:497 [35m[fd52737a-91ca-4fbc-b392-89c327176494] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 02:49:07:497 [35m[0b37d610-3a99-43ac-8385-f4a1acb7b4a5] Response 200 - 5ms - GET /api/users[39m
+2026-05-23 02:49:07:497 [35m[c41016c1-f143-415b-a266-045c4219adaa] GET /api/branches - IP: ::1[39m
+2026-05-23 02:49:07:497 [35m[17b87db8-8cc8-4eda-854b-703e516d6f07] GET /api/users - IP: ::1[39m
+2026-05-23 02:49:07:497 [35m[c41016c1-f143-415b-a266-045c4219adaa] Response 200 - 5ms - GET /api/branches[39m
+2026-05-23 02:49:07:497 [35m[17b87db8-8cc8-4eda-854b-703e516d6f07] Response 200 - 4ms - GET /api/users[39m
+2026-05-23 02:49:07:497 [35m[75221e1b-8d3d-471d-bc6b-722644c77533] GET /api/branches - IP: ::1[39m
+2026-05-23 02:49:07:497 [35m[75221e1b-8d3d-471d-bc6b-722644c77533] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 02:49:07:497 [35m[0b83f114-90f3-46b3-a47e-2242ee05de27] GET /api/branches - IP: ::1[39m
+2026-05-23 02:49:07:497 [35m[0b83f114-90f3-46b3-a47e-2242ee05de27] Response 200 - 3ms - GET /api/branches[39m
+2026-05-23 02:49:08:498 [35m[84025af7-7591-4659-a22d-eabd9d7ff386] GET /api/categories - IP: ::1[39m
+2026-05-23 02:49:08:498 [35m[84025af7-7591-4659-a22d-eabd9d7ff386] Response 200 - 3ms - GET /api/categories[39m
+2026-05-23 02:49:08:498 [35m[ee26234a-7840-4b68-b8df-097f49c8986e] GET /api/categories - IP: ::1[39m
+2026-05-23 02:49:08:498 [35m[ee26234a-7840-4b68-b8df-097f49c8986e] Response 200 - 3ms - GET /api/categories[39m
+2026-05-23 02:49:09:499 [35m[1fc80065-06d1-4699-ad44-6e2af0877840] GET /api/categories - IP: ::1[39m
+2026-05-23 02:49:09:499 [35m[0d32e373-147c-4e93-beda-d1b42d90baed] GET /api/products - IP: ::1[39m
+2026-05-23 02:49:09:499 [35m[1fc80065-06d1-4699-ad44-6e2af0877840] Response 200 - 4ms - GET /api/categories[39m
+2026-05-23 02:49:09:499 [35m[4f3bc183-4944-4bd2-9979-1c5c996ef090] GET /api/categories - IP: ::1[39m
+2026-05-23 02:49:09:499 [35m[0d32e373-147c-4e93-beda-d1b42d90baed] Response 200 - 8ms - GET /api/products[39m
+2026-05-23 02:49:09:499 [35m[4f3bc183-4944-4bd2-9979-1c5c996ef090] Response 200 - 4ms - GET /api/categories[39m
+2026-05-23 02:49:09:499 [35m[95fcdc0c-8c7a-4467-b00d-8b01aa0903f9] GET /api/products - IP: ::1[39m
+2026-05-23 02:49:09:499 [35m[cc915059-4c16-4448-bbb3-61fdde9bec80] GET /api/categories - IP: ::1[39m
+2026-05-23 02:49:09:499 [35m[cc915059-4c16-4448-bbb3-61fdde9bec80] Response 200 - 3ms - GET /api/categories[39m
+2026-05-23 02:49:09:499 [35m[95fcdc0c-8c7a-4467-b00d-8b01aa0903f9] Response 200 - 6ms - GET /api/products[39m
+2026-05-23 02:49:09:499 [35m[4ba3db86-7f82-4f08-a0eb-1fa416bfc6dd] GET /api/categories - IP: ::1[39m
+2026-05-23 02:49:09:499 [35m[4ba3db86-7f82-4f08-a0eb-1fa416bfc6dd] Response 200 - 3ms - GET /api/categories[39m
+2026-05-23 02:49:09:499 [35m[2d38e21a-0fe5-4624-823c-dd63f13413e8] GET /uploads/products/49d7322a-2f7e-4203-bfb8-2bf6761e2ee8.jpeg - IP: ::1[39m
+2026-05-23 02:49:14:4914 [35m[51cc61dd-7193-49ed-be34-4ddfaa3407ef] GET /api/stocks - IP: ::1[39m
+2026-05-23 02:49:14:4914 [35m[aa656cd3-f841-4cf4-9f20-df27759a2b35] GET /api/branches - IP: ::1[39m
+2026-05-23 02:49:14:4914 [35m[51cc61dd-7193-49ed-be34-4ddfaa3407ef] Response 200 - 7ms - GET /api/stocks[39m
+2026-05-23 02:49:14:4914 [35m[aa656cd3-f841-4cf4-9f20-df27759a2b35] Response 200 - 6ms - GET /api/branches[39m
+2026-05-23 02:49:14:4914 [35m[6a9f93ec-b5df-4199-9692-805cae9a0b72] GET /api/stocks - IP: ::1[39m
+2026-05-23 02:49:14:4914 [35m[6fc9920f-2c67-4c12-bd64-ce9247ae2d06] GET /api/branches - IP: ::1[39m
+2026-05-23 02:49:14:4914 [35m[6a9f93ec-b5df-4199-9692-805cae9a0b72] Response 200 - 5ms - GET /api/stocks[39m
+2026-05-23 02:49:14:4914 [35m[6fc9920f-2c67-4c12-bd64-ce9247ae2d06] Response 200 - 3ms - GET /api/branches[39m
+2026-05-23 02:49:21:4921 [35m[7e0270f2-f13f-43c5-9b07-dca9627fb0c9] GET /api/stocks/history?limit=50 - IP: ::1[39m
+2026-05-23 02:49:21:4921 [35m[3e9ea431-d606-45fd-92fb-95fa431b359c] GET /api/products?status=active - IP: ::1[39m
+2026-05-23 02:49:21:4921 [35m[a0288087-a9b5-4082-b581-45b0fa01579f] GET /api/branches - IP: ::1[39m
+2026-05-23 02:49:21:4921 [35m[7e0270f2-f13f-43c5-9b07-dca9627fb0c9] Response 200 - 6ms - GET /api/stocks/history?limit=50[39m
+2026-05-23 02:49:21:4921 [35m[a0288087-a9b5-4082-b581-45b0fa01579f] Response 200 - 4ms - GET /api/branches[39m
+2026-05-23 02:49:21:4921 [35m[3e9ea431-d606-45fd-92fb-95fa431b359c] Response 200 - 7ms - GET /api/products?status=active[39m
+2026-05-23 02:49:21:4921 [35m[1aaa2ce4-deba-4bfd-9723-b220df5f7372] GET /api/stocks/history?limit=50 - IP: ::1[39m
+2026-05-23 02:49:21:4921 [35m[60bcf61b-92c3-495b-b20b-6e52f2e94045] GET /api/branches - IP: ::1[39m
+2026-05-23 02:49:21:4921 [35m[4ec422b1-48fe-4ff6-80c3-b7c9ff21e4fb] GET /api/products?status=active - IP: ::1[39m
+2026-05-23 02:49:21:4921 [35m[1aaa2ce4-deba-4bfd-9723-b220df5f7372] Response 200 - 10ms - GET /api/stocks/history?limit=50[39m
+2026-05-23 02:49:21:4921 [35m[60bcf61b-92c3-495b-b20b-6e52f2e94045] Response 200 - 7ms - GET /api/branches[39m
+2026-05-23 02:49:21:4921 [35m[4ec422b1-48fe-4ff6-80c3-b7c9ff21e4fb] Response 200 - 9ms - GET /api/products?status=active[39m

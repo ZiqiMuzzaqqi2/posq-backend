@@ -14,6 +14,7 @@ datasource db {
 // ENUMS (Daftar Pilihan)
 // ============================================
 
+// ENUM ROLE
 enum Role {
   SUPERADMIN
   ADMIN
@@ -22,6 +23,7 @@ enum Role {
   GUDANG
 }
 
+// ENUM PAYMENT_TYPE
 enum PaymentType {
   CASH
   CARD
@@ -29,10 +31,25 @@ enum PaymentType {
   TRANSFER
 }
 
+// ENUM SALE_STATUS
 enum SaleStatus {
   COMPLETED
   CANCELLED
   REFUNDED
+}
+
+// ENUM MUTATION_TYPE
+enum MutationType {
+  IN // Penambahan stok (Purchase, Return, Adjustment +)
+  OUT // Pengurangan stok (Sale, Adjustment -, Damaged)
+}
+
+// ENUM REFERENCE_TYPE
+enum ReferenceType {
+  SALE
+  PURCHASE
+  ADJUSTMENT
+  RETURN
 }
 
 // ============================================
@@ -49,11 +66,12 @@ model Branch {
   updatedAt DateTime @updatedAt
 
   // Relasi: satu cabang punya banyak user
-  users  User[]
+  users          User[]
   // Relasi: satu cabang punya banyak stok
-  stocks Stock[]
+  stocks         Stock[]
   // Relasi: satu cabang punya banyak transaksi penjualan
-  sales  Sale[]
+  sales          Sale[]
+  stockMutations StockMutation[]
 }
 
 // ============================================
@@ -114,7 +132,8 @@ model Product {
   stocks Stock[]
 
   // Relasi: satu produk bisa muncul di banyak item penjualan
-  saleItems SaleItem[]
+  saleItems      SaleItem[]
+  stockMutations StockMutation[]
 }
 
 // ============================================
@@ -137,6 +156,34 @@ model Stock {
 
   // Kombinasi productId + branchId harus UNIK
   @@unique([productId, branchId])
+}
+
+// ============================================
+// TABEL STOCK_MUTATION (History Perubahan Stok)
+// ============================================
+model StockMutation {
+  id            String        @id @default(uuid())
+  productId     String        @map("product_id")
+  branchId      String        @map("branch_id")
+  type          MutationType // IN atau OUT
+  quantity      Int // Jumlah perubahan
+  beforeStock   Int           @map("before_stock") // Stok sebelum perubahan
+  afterStock    Int           @map("after_stock") // Stok setelah perubahan
+  referenceId   String        @map("reference_id") // ID transaksi terkait (sale_id, purchase_id, dll)
+  referenceType ReferenceType @map("reference_type") // Jenis transaksi
+  note          String? // Catatan tambahan
+  createdAt     DateTime      @default(now()) @map("created_at")
+
+  // Relasi ke Product
+  product Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  // Relasi ke Branch
+  branch Branch @relation(fields: [branchId], references: [id], onDelete: Cascade)
+
+  @@index([productId])
+  @@index([branchId])
+  @@index([createdAt])
+  @@map("stock_mutations")
 }
 
 // ============================================
